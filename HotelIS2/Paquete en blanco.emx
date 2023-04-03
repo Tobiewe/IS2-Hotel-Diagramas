@@ -16,6 +16,48 @@
         <element xsi:nil="true"/>
       </contents>
     </eAnnotations>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RS70INI4Ee2HNbfNf69dcg" name="Clientes">
+      <eAnnotations xmi:id="_RS8bMNI4Ee2HNbfNf69dcg" source="uml2.diagrams" references="_RS8bMdI4Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_RS8bMdI4Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RS9CQNI4Ee2HNbfNf69dcg" name="Reservas">
+      <eAnnotations xmi:id="_RS9CQdI4Ee2HNbfNf69dcg" source="uml2.diagrams" references="_RS9CQtI4Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_RS9CQtI4Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RS9CQ9I4Ee2HNbfNf69dcg" name="Habitaciones">
+      <eAnnotations xmi:id="_RS9CRNI4Ee2HNbfNf69dcg" source="uml2.diagrams" references="_RS9CRdI4Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_RS9CRdI4Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RS9pUNI4Ee2HNbfNf69dcg" name="Empleados">
+      <eAnnotations xmi:id="_RS9pUdI4Ee2HNbfNf69dcg" source="uml2.diagrams" references="_RS9pUtI4Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_RS9pUtI4Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RS9pU9I4Ee2HNbfNf69dcg" name="Departamentos">
+      <eAnnotations xmi:id="_RS9pVNI4Ee2HNbfNf69dcg" source="uml2.diagrams" references="_RS9pVdI4Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_RS9pVdI4Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RS9pVtI4Ee2HNbfNf69dcg" name="Tareas">
+      <eAnnotations xmi:id="_RS9pV9I4Ee2HNbfNf69dcg" source="uml2.diagrams" references="_RS9pWNI4Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_RS9pWNI4Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_QSLwgNIyEe2HNbfNf69dcg" name="Negocio">
     <eAnnotations xmi:id="_QSMXkNIyEe2HNbfNf69dcg" source="uml2.diagrams" references="_QSMXkdIyEe2HNbfNf69dcg">
@@ -23,13 +65,93 @@
         <element xsi:nil="true"/>
       </contents>
     </eAnnotations>
+    <packagedElement xmi:type="uml:Package" xmi:id="_QvGuUNI4Ee2HNbfNf69dcg" name="Clientes">
+      <eAnnotations xmi:id="_QvGuUdI4Ee2HNbfNf69dcg" source="uml2.diagrams" references="_QvGuUtI4Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_QvGuUtI4Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_QvHVYNI4Ee2HNbfNf69dcg" name="Reservas">
+      <eAnnotations xmi:id="_QvHVYdI4Ee2HNbfNf69dcg" source="uml2.diagrams" references="_QvHVYtI4Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_QvHVYtI4Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_QvH8cNI4Ee2HNbfNf69dcg" name="Habitaciones">
+      <eAnnotations xmi:id="_QvH8cdI4Ee2HNbfNf69dcg" source="uml2.diagrams" references="_QvH8ctI4Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_QvH8ctI4Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_QvH8c9I4Ee2HNbfNf69dcg" name="Empleados">
+      <eAnnotations xmi:id="_QvH8dNI4Ee2HNbfNf69dcg" source="uml2.diagrams" references="_QvH8ddI4Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_QvH8ddI4Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_QvIjgNI4Ee2HNbfNf69dcg" name="Departamentos">
+      <eAnnotations xmi:id="_QvIjgdI4Ee2HNbfNf69dcg" source="uml2.diagrams" references="_QvIjgtI4Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_QvIjgtI4Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_QvIjg9I4Ee2HNbfNf69dcg" name="Tareas">
+      <eAnnotations xmi:id="_QvIjhNI4Ee2HNbfNf69dcg" source="uml2.diagrams" references="_QvIjhdI4Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_QvIjhdI4Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_Rb4jgNIyEe2HNbfNf69dcg" name="Integracion">
-    <eAnnotations xmi:id="_Rb5KkNIyEe2HNbfNf69dcg" source="uml2.diagrams" references="_Rb5KkdIyEe2HNbfNf69dcg">
-      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Rb5KkdIyEe2HNbfNf69dcg" type="Freeform" name="Principal">
-        <element xsi:nil="true"/>
-      </contents>
-    </eAnnotations>
+    <eAnnotations xmi:id="_Rb5KkNIyEe2HNbfNf69dcg" source="uml2.diagrams"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_jUysgNI3Ee2HNbfNf69dcg" name="Clientes">
+      <eAnnotations xmi:id="_jUzTkNI3Ee2HNbfNf69dcg" source="uml2.diagrams" references="_jUzTkdI3Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_jUzTkdI3Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_k_O1ENI3Ee2HNbfNf69dcg" name="Reservas">
+      <eAnnotations xmi:id="_k_PcINI3Ee2HNbfNf69dcg" source="uml2.diagrams" references="_k_PcIdI3Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_k_PcIdI3Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_moIFgNI3Ee2HNbfNf69dcg" name="Habitaciones">
+      <eAnnotations xmi:id="_moIskNI3Ee2HNbfNf69dcg" source="uml2.diagrams" references="_moIskdI3Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_moIskdI3Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_oE4XYNI3Ee2HNbfNf69dcg" name="Empleados">
+      <eAnnotations xmi:id="_oE5lgNI3Ee2HNbfNf69dcg" source="uml2.diagrams" references="_oE5lgdI3Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_oE5lgdI3Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_pYVjUNI3Ee2HNbfNf69dcg" name="Departamentos">
+      <eAnnotations xmi:id="_pYWKYNI3Ee2HNbfNf69dcg" source="uml2.diagrams" references="_pYWxcNI3Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_pYWxcNI3Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_rFlIQNI3Ee2HNbfNf69dcg" name="Tareas">
+      <eAnnotations xmi:id="_rFlIQdI3Ee2HNbfNf69dcg" source="uml2.diagrams" references="_rFlvUNI3Ee2HNbfNf69dcg">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_rFlvUNI3Ee2HNbfNf69dcg" type="Freeform" name="Principal">
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
+    </packagedElement>
   </packagedElement>
   <profileApplication xmi:id="_Gx0NhNIyEe2HNbfNf69dcg">
     <eAnnotations xmi:id="_Gx0NhdIyEe2HNbfNf69dcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
