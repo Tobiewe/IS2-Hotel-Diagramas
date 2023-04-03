@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.6-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_Gx0NgNIyEe2HNbfNf69dcg" name="Paquete en blanco">
+  <eAnnotations xmi:id="_Gx0NgdIyEe2HNbfNf69dcg" source="uml2.diagrams" references="_Gx0NgtIyEe2HNbfNf69dcg">
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Gx0NgtIyEe2HNbfNf69dcg" type="Freeform" name="Main"/>
+  </eAnnotations>
+  <packageImport xmi:id="_Gx0Ng9IyEe2HNbfNf69dcg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_O4pKsNIyEe2HNbfNf69dcg" name="Presentacion">
+    <eAnnotations xmi:id="_O5HEwNIyEe2HNbfNf69dcg" source="uml2.diagrams" references="_O5Hr0NIyEe2HNbfNf69dcg">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_O5Hr0NIyEe2HNbfNf69dcg" type="Freeform" name="Principal">
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_QSLwgNIyEe2HNbfNf69dcg" name="Negocio">
+    <eAnnotations xmi:id="_QSMXkNIyEe2HNbfNf69dcg" source="uml2.diagrams" references="_QSMXkdIyEe2HNbfNf69dcg">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_QSMXkdIyEe2HNbfNf69dcg" type="Freeform" name="Principal">
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_Rb4jgNIyEe2HNbfNf69dcg" name="Integracion">
+    <eAnnotations xmi:id="_Rb5KkNIyEe2HNbfNf69dcg" source="uml2.diagrams" references="_Rb5KkdIyEe2HNbfNf69dcg">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Rb5KkdIyEe2HNbfNf69dcg" type="Freeform" name="Principal">
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+  </packagedElement>
+  <profileApplication xmi:id="_Gx0NhNIyEe2HNbfNf69dcg">
+    <eAnnotations xmi:id="_Gx0NhdIyEe2HNbfNf69dcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_Gx0NhtIyEe2HNbfNf69dcg">
+    <eAnnotations xmi:id="_Gx0Nh9IyEe2HNbfNf69dcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_Gx0NiNIyEe2HNbfNf69dcg">
+    <eAnnotations xmi:id="_Gx0NidIyEe2HNbfNf69dcg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Package>
