@@ -1469,6 +1469,14 @@
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__BKvINJGEe2HNbfNf69dcg" points="[-71, 2, 207, -7]$[-191, 2, 87, -7]"/>
           </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_FE0r8NJNEe24t7stphxYgg" element="_FExBkNJNEe24t7stphxYgg" source="_zuPCUNJGEe2HNbfNf69dcg" target="_BksRQNJGEe2HNbfNf69dcg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_FE0r8tJNEe24t7stphxYgg" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_FE1TAdJNEe24t7stphxYgg" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_FE1TAtJNEe24t7stphxYgg" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FE1TANJNEe24t7stphxYgg" y="-186"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_FE0r8dJNEe24t7stphxYgg" points="[9, 73, -4, -208]$[28, 172, 15, -109]"/>
+          </edges>
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_9LZ80NJFEe2HNbfNf69dcg" name="DAOHabitacionIMP" clientDependency="_LpkPgNJGEe2HNbfNf69dcg _OICdENJGEe2HNbfNf69dcg _RjID4NJGEe2HNbfNf69dcg _TlAcENJGEe2HNbfNf69dcg _WaolYNJGEe2HNbfNf69dcg __BI58NJGEe2HNbfNf69dcg"/>
@@ -1487,7 +1495,7 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_WaolYNJGEe2HNbfNf69dcg" client="_9LZ80NJFEe2HNbfNf69dcg">
         <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.sql.SQLException%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_ycoQgNJGEe2HNbfNf69dcg" name="DAOHabitacion" clientDependency="_IJ5OMNJHEe2HNbfNf69dcg">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ycoQgNJGEe2HNbfNf69dcg" name="DAOHabitacion" clientDependency="_IJ5OMNJHEe2HNbfNf69dcg _FExBkNJNEe24t7stphxYgg">
         <ownedOperation xmi:id="_1nUD0NJGEe2HNbfNf69dcg" name="añadir"/>
         <ownedOperation xmi:id="_2TLrUNJGEe2HNbfNf69dcg" name="borrar"/>
         <ownedOperation xmi:id="_498ocNJGEe2HNbfNf69dcg" name="modificar"/>
@@ -1497,6 +1505,7 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="__BI58NJGEe2HNbfNf69dcg" supplier="_ycoQgNJGEe2HNbfNf69dcg" client="_9LZ80NJFEe2HNbfNf69dcg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_IJ5OMNJHEe2HNbfNf69dcg" supplier="_9bdngNJEEe2HNbfNf69dcg" client="_ycoQgNJGEe2HNbfNf69dcg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_FExBkNJNEe24t7stphxYgg" supplier="_9bdngNJEEe2HNbfNf69dcg" client="_ycoQgNJGEe2HNbfNf69dcg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_oE4XYNI3Ee2HNbfNf69dcg" name="Empleados">
       <eAnnotations xmi:id="_oE5lgNI3Ee2HNbfNf69dcg" source="uml2.diagrams">
