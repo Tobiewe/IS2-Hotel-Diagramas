@@ -366,6 +366,7 @@
         <ownedAttribute xmi:id="_zM2XENJHEe2HNbfNf69dcg" name="Total" visibility="private"/>
         <ownedAttribute xmi:id="_0evcwNJHEe2HNbfNf69dcg" name="FechaEntrada" visibility="private"/>
         <ownedAttribute xmi:id="_2B1nMNJHEe2HNbfNf69dcg" name="Noches" visibility="private"/>
+        <ownedAttribute xmi:id="_trnh4NLxEe2TtPJ8BD3bmQ" name="idCliente" visibility="private"/>
         <ownedOperation xmi:id="_yHLIcNJHEe2HNbfNf69dcg" name="getid"/>
         <ownedOperation xmi:id="_26-OoNJHEe2HNbfNf69dcg" name="getTotal"/>
         <ownedOperation xmi:id="_3v5EcNJHEe2HNbfNf69dcg" name="getFechaEntrada"/>
@@ -922,7 +923,7 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_oqsvUNI5Ee2HNbfNf69dcg" type="Kind"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_oqtWYNI5Ee2HNbfNf69dcg" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_oqtWYdI5Ee2HNbfNf69dcg" type="Parent"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_oqvLkNI5Ee2HNbfNf69dcg" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_oqvLkNI5Ee2HNbfNf69dcg" type="AttributeCompartment" collapsed="true"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_oqxAwNI5Ee2HNbfNf69dcg" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_oq0EENI5Ee2HNbfNf69dcg" visible="false" type="SignalCompartment"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oqmBodI5Ee2HNbfNf69dcg" x="4884" y="1056" width="4494" height="4387"/>
@@ -1290,6 +1291,7 @@
         <ownedOperation xmi:id="_G0cBsNJIEe2HNbfNf69dcg" name="modificar"/>
         <ownedOperation xmi:id="_HTkNsNJIEe2HNbfNf69dcg" name="mostrarUna"/>
         <ownedOperation xmi:id="_ICr9gNJIEe2HNbfNf69dcg" name="mostrarTodas"/>
+        <ownedOperation xmi:id="_2rzwANLxEe2TtPJ8BD3bmQ" name="readReservasPorEmpleado"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_rp7YMNJHEe2HNbfNf69dcg" name="DAOReservasIMP" clientDependency="_QjPCQNJIEe2HNbfNf69dcg _R3uwANJIEe2HNbfNf69dcg _TlQo0NJIEe2HNbfNf69dcg _VnMEUNJIEe2HNbfNf69dcg _euPvcNJIEe2HNbfNf69dcg _hqF1gNJIEe2HNbfNf69dcg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_MWZ1cNJIEe2HNbfNf69dcg" supplier="_cVu1YNJHEe2HNbfNf69dcg" client="_qPFx4NJHEe2HNbfNf69dcg"/>
