@@ -496,6 +496,7 @@
         <ownedAttribute xmi:id="_Wx8HkNJFEe2HNbfNf69dcg" name="Ocupada" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
         </ownedAttribute>
+        <ownedAttribute xmi:id="_P3190NL2Ee2TtPJ8BD3bmQ" name="idEmpleado" visibility="private"/>
         <ownedOperation xmi:id="_ZG-FQNJFEe2HNbfNf69dcg" name="getNumero"/>
         <ownedOperation xmi:id="_aL_zoNJFEe2HNbfNf69dcg" name="getPiso"/>
         <ownedOperation xmi:id="_bAa6MNJFEe2HNbfNf69dcg" name="getTamaño"/>
@@ -656,6 +657,7 @@
         <ownedAttribute xmi:id="_411_4NJHEe24t7stphxYgg" name="activado" visibility="private"/>
         <ownedAttribute xmi:id="_5rqNkNJHEe24t7stphxYgg" name="correoElectronico" visibility="private"/>
         <ownedAttribute xmi:id="_7NfzwNJHEe24t7stphxYgg" name="telefono" visibility="private"/>
+        <ownedAttribute xmi:id="_rgIIcNL2Ee2TtPJ8BD3bmQ" name="idDepartamento" visibility="private"/>
         <ownedOperation xmi:id="_76dAYNJHEe24t7stphxYgg" name="getId"/>
         <ownedOperation xmi:id="_kEqagNJIEe24t7stphxYgg" name="setId"/>
         <ownedOperation xmi:id="_kyiNINJIEe24t7stphxYgg" name="getSueldo"/>
@@ -1515,6 +1517,7 @@
         <ownedOperation xmi:id="_5gDP8NJGEe2HNbfNf69dcg" name="mostraUna"/>
         <ownedOperation xmi:id="_6wC4MNJGEe2HNbfNf69dcg" name="mostrarTodas"/>
         <ownedOperation xmi:id="_72T8sNJGEe2HNbfNf69dcg" name="mostrarTodasDisponibles"/>
+        <ownedOperation xmi:id="_VifzgNL2Ee2TtPJ8BD3bmQ" name="mostrarHabitacionesPorCliente"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="__BI58NJGEe2HNbfNf69dcg" supplier="_ycoQgNJGEe2HNbfNf69dcg" client="_9LZ80NJFEe2HNbfNf69dcg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_IJ5OMNJHEe2HNbfNf69dcg" supplier="_9bdngNJEEe2HNbfNf69dcg" client="_ycoQgNJGEe2HNbfNf69dcg"/>
@@ -1621,6 +1624,19 @@
             <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.sql.SQLException%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yWkr0dJGEe24t7stphxYgg" x="14784" y="660"/>
           </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_her4sNL2Ee2TtPJ8BD3bmQ" element="_SyZd8NJHEe24t7stphxYgg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_her4stL2Ee2TtPJ8BD3bmQ" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_her4s9L2Ee2TtPJ8BD3bmQ" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_her4tNL2Ee2TtPJ8BD3bmQ" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_her4tdL2Ee2TtPJ8BD3bmQ" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_her4ttL2Ee2TtPJ8BD3bmQ" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_her4t9L2Ee2TtPJ8BD3bmQ" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_her4uNL2Ee2TtPJ8BD3bmQ" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_her4udL2Ee2TtPJ8BD3bmQ" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_her4utL2Ee2TtPJ8BD3bmQ" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_her4sdL2Ee2TtPJ8BD3bmQ" x="5697" y="9383"/>
+          </children>
           <element xsi:nil="true"/>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_jBc78NJGEe24t7stphxYgg" element="_jBAQANJGEe24t7stphxYgg" source="_-cyFINJFEe24t7stphxYgg" target="_i_tPgNJGEe24t7stphxYgg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_jBh0cNJGEe24t7stphxYgg" type="NameLabel">
@@ -1662,6 +1678,14 @@
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_yXYkIdJGEe24t7stphxYgg" points="[-63, -24, 529, 201]$[-590, -225, 2, 0]"/>
           </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_her4u9L2Ee2TtPJ8BD3bmQ" element="_RpY8kNJJEe24t7stphxYgg" source="_-qyE4NJFEe24t7stphxYgg" target="_her4sNL2Ee2TtPJ8BD3bmQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_her4vdL2Ee2TtPJ8BD3bmQ" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_her4v9L2Ee2TtPJ8BD3bmQ" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_her4wNL2Ee2TtPJ8BD3bmQ" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_her4vtL2Ee2TtPJ8BD3bmQ" y="-124"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_her4vNL2Ee2TtPJ8BD3bmQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+          </edges>
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_0obPINJFEe24t7stphxYgg" name="DAOEmpleadosIMP" clientDependency="_jBAQANJGEe24t7stphxYgg _lJowcNJGEe24t7stphxYgg _nfz9oNJGEe24t7stphxYgg _qjUx8NJGEe24t7stphxYgg _yXU5wNJGEe24t7stphxYgg"/>
@@ -1671,6 +1695,7 @@
         <ownedOperation xmi:id="_FmddkNJGEe24t7stphxYgg" name="modificar"/>
         <ownedOperation xmi:id="_HMMFQNJGEe24t7stphxYgg" name="leerUno"/>
         <ownedOperation xmi:id="_IIPd0NJGEe24t7stphxYgg" name="leerTodos"/>
+        <ownedOperation xmi:id="_oxxEwNL2Ee2TtPJ8BD3bmQ" name="leerEmpleadosPorDepartamento"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_jBAQANJGEe24t7stphxYgg" client="_0obPINJFEe24t7stphxYgg">
         <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.sql.Connection%5Bproject%5Eid=HotelIS2%5D$uml.Interface"/>
