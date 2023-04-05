@@ -921,7 +921,6 @@
         <ownedAttribute xmi:id="_HX8sgNJKEe24t7stphxYgg" name="lugar" visibility="private"/>
         <ownedAttribute xmi:id="_H6xFsNJKEe24t7stphxYgg" name="nombre" visibility="private"/>
         <ownedOperation xmi:id="_IUAsINJKEe24t7stphxYgg" name="getId"/>
-        <ownedOperation xmi:id="_RX9_8NJKEe24t7stphxYgg" name="setId"/>
         <ownedOperation xmi:id="_SICyANJKEe24t7stphxYgg" name="getDescripcion"/>
         <ownedOperation xmi:id="_S41VwNJKEe24t7stphxYgg" name="setDescripcion"/>
         <ownedOperation xmi:id="_To3rkNJKEe24t7stphxYgg" name="getLugar"/>
@@ -1152,7 +1151,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_OxpI1NJIEe2HNbfNf69dcg" type="AttributeCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_OxpI1dJIEe2HNbfNf69dcg" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_OxpI1tJIEe2HNbfNf69dcg" visible="false" type="SignalCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OxohwdJIEe2HNbfNf69dcg" x="4488" y="5016"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OxohwdJIEe2HNbfNf69dcg" x="2772" y="4356"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_O8yo4NJIEe2HNbfNf69dcg" element="_rp7YMNJHEe2HNbfNf69dcg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_O8yo4tJIEe2HNbfNf69dcg" type="ImageCompartment">
