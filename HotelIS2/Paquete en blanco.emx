@@ -23,10 +23,14 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_oqsvUNI5Ee2HNbfNf69dcg" type="Kind"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_oqtWYNI5Ee2HNbfNf69dcg" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_oqtWYdI5Ee2HNbfNf69dcg" type="Parent"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_oqvLkNI5Ee2HNbfNf69dcg" type="AttributeCompartment"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_oqxAwNI5Ee2HNbfNf69dcg" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_oqvLkNI5Ee2HNbfNf69dcg" type="AttributeCompartment">
+              <layoutConstraint xmi:type="notation:Ratio" xmi:id="_0cfSUNOtEe2Ajtt_IXPLWg" value="0.10389230318993269"/>
+            </children>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_oqxAwNI5Ee2HNbfNf69dcg" type="OperationCompartment">
+              <layoutConstraint xmi:type="notation:Ratio" xmi:id="_0cf5YNOtEe2Ajtt_IXPLWg" value="0.8961076968100673"/>
+            </children>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_oq0EENI5Ee2HNbfNf69dcg" visible="false" type="SignalCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oqmBodI5Ee2HNbfNf69dcg" x="4884" y="1056" width="4494" height="4387"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oqmBodI5Ee2HNbfNf69dcg" x="4884" y="2413" width="4494" height="3264"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_JmjFUNI6Ee2HNbfNf69dcg" element="_HOisINI6Ee2HNbfNf69dcg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_JmjsYNI6Ee2HNbfNf69dcg" type="ImageCompartment">
@@ -124,7 +128,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_19erUdOqEe2Ajtt_IXPLWg" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_19fSYNOqEe2Ajtt_IXPLWg" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_19fSYdOqEe2Ajtt_IXPLWg" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_19aZ4dOqEe2Ajtt_IXPLWg" x="2836" y="8149"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_19aZ4dOqEe2Ajtt_IXPLWg" x="2836" y="8149" height="10097"/>
           </children>
           <element xsi:nil="true"/>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Os3e4NI6Ee2HNbfNf69dcg" element="_OsxYQNI6Ee2HNbfNf69dcg" source="_JmjFUNI6Ee2HNbfNf69dcg" target="_oqmBoNI5Ee2HNbfNf69dcg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -212,7 +216,49 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_MwqsYNJEEe2HNbfNf69dcg" client="_HOisINI6Ee2HNbfNf69dcg">
         <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.sql.SQLException%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_18raENOqEe2Ajtt_IXPLWg" name="TCliente"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_18raENOqEe2Ajtt_IXPLWg" name="TCliente">
+        <ownedAttribute xmi:id="_3wbvUNOtEe2Ajtt_IXPLWg" name="Id" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_5cKRUNOtEe2Ajtt_IXPLWg" name="Telefono" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_7qOEUNOtEe2Ajtt_IXPLWg" name="Correo" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_S9TJQNOuEe2Ajtt_IXPLWg" name="NombreP" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_U6MTwNOuEe2Ajtt_IXPLWg" name="ApellidoP" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_WuAawNOuEe2Ajtt_IXPLWg" name="NIF" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_eR8tUNOuEe2Ajtt_IXPLWg" name="NombreE" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_fjplwNOuEe2Ajtt_IXPLWg" name="CIF" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_pgykUNOuEe2Ajtt_IXPLWg" name="getId"/>
+        <ownedOperation xmi:id="_rT6HwNOuEe2Ajtt_IXPLWg" name="getTelefono"/>
+        <ownedOperation xmi:id="_tBjVUNOuEe2Ajtt_IXPLWg" name="getCorreo"/>
+        <ownedOperation xmi:id="_66JAUNOvEe2Ajtt_IXPLWg" name="getNombreP"/>
+        <ownedOperation xmi:id="_9IVWMNOvEe2Ajtt_IXPLWg" name="getApellidoP"/>
+        <ownedOperation xmi:id="_-YYBwNOvEe2Ajtt_IXPLWg" name="getNIF"/>
+        <ownedOperation xmi:id="__lWyQNOvEe2Ajtt_IXPLWg" name="getNombreE"/>
+        <ownedOperation xmi:id="_A8x4MNOwEe2Ajtt_IXPLWg" name="getCIF"/>
+        <ownedOperation xmi:id="_CZyBsNOwEe2Ajtt_IXPLWg" name="setId"/>
+        <ownedOperation xmi:id="_D3FtMNOwEe2Ajtt_IXPLWg" name="setTelefono"/>
+        <ownedOperation xmi:id="_FGSrQNOwEe2Ajtt_IXPLWg" name="setCorreo"/>
+        <ownedOperation xmi:id="_GXje0NOwEe2Ajtt_IXPLWg" name="setNombreP"/>
+        <ownedOperation xmi:id="_HnIQUNOwEe2Ajtt_IXPLWg" name="setApellidoP"/>
+        <ownedOperation xmi:id="_N7B3UNOwEe2Ajtt_IXPLWg" name="setNIF"/>
+        <ownedOperation xmi:id="_PTSqwNOwEe2Ajtt_IXPLWg" name="setNombreE"/>
+        <ownedOperation xmi:id="_Qt8D0NOwEe2Ajtt_IXPLWg" name="setCIF"/>
+        <ownedOperation xmi:id="_R8-CwNOwEe2Ajtt_IXPLWg" name="TCliente"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_G0QbMNOrEe2Ajtt_IXPLWg" supplier="_18raENOqEe2Ajtt_IXPLWg" client="_oqXYINI5Ee2HNbfNf69dcg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_k_O1ENI3Ee2HNbfNf69dcg" name="Reservas">
@@ -417,7 +463,29 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_hqF1gNJIEe2HNbfNf69dcg" client="_rp7YMNJHEe2HNbfNf69dcg">
         <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.sql.SQLException%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_SDgh4NOrEe2Ajtt_IXPLWg" name="TReservas"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_SDgh4NOrEe2Ajtt_IXPLWg" name="TReservas">
+        <ownedAttribute xmi:id="_-jHx0NOyEe2Ajtt_IXPLWg" name="Id" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="__D_qQNOyEe2Ajtt_IXPLWg" name="Total" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Aa-EQNOzEe2Ajtt_IXPLWg" name="FechaE" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_BTavMNOzEe2Ajtt_IXPLWg" name="Noches" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_KtO-QNOzEe2Ajtt_IXPLWg" name="getId"/>
+        <ownedOperation xmi:id="_NvAtMNOzEe2Ajtt_IXPLWg" name="getTotal"/>
+        <ownedOperation xmi:id="_WkDbQNOzEe2Ajtt_IXPLWg" name="getFechaE"/>
+        <ownedOperation xmi:id="_YQ7MwNOzEe2Ajtt_IXPLWg" name="getNoches"/>
+        <ownedOperation xmi:id="_Z8CqwNOzEe2Ajtt_IXPLWg" name="setId"/>
+        <ownedOperation xmi:id="_bM_VQNOzEe2Ajtt_IXPLWg" name="setTotal"/>
+        <ownedOperation xmi:id="_c4emsNOzEe2Ajtt_IXPLWg" name="setFechaE"/>
+        <ownedOperation xmi:id="_fVkUMNOzEe2Ajtt_IXPLWg" name="setNoches"/>
+        <ownedOperation xmi:id="_iFMjMNOzEe2Ajtt_IXPLWg" name="TReservas"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_Snh08NOrEe2Ajtt_IXPLWg" supplier="_SDgh4NOrEe2Ajtt_IXPLWg" client="_qPFx4NJHEe2HNbfNf69dcg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_moIFgNI3Ee2HNbfNf69dcg" name="Habitaciones">
@@ -620,7 +688,34 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_FExBkNJNEe24t7stphxYgg" client="_ycoQgNJGEe2HNbfNf69dcg">
         <supplier xmi:type="uml:Class" href="platform:/resource/HotelIS3/Paquete%20en%20blanco.emx#_9bdngNJEEe2HNbfNf69dcg?Paquete%20en%20blanco/Negocio/Habitaciones/THabitacion?"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_O0YTcNOrEe2Ajtt_IXPLWg" name="THabitacion"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_O0YTcNOrEe2Ajtt_IXPLWg" name="THabitacion">
+        <ownedAttribute xmi:id="_QchRwNOyEe2Ajtt_IXPLWg" name="Número" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_R56c0NOyEe2Ajtt_IXPLWg" name="Tamaño" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_TK_qMNOyEe2Ajtt_IXPLWg" name="Piso" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_UIvE0NOyEe2Ajtt_IXPLWg" name="Precio" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_V1IVMNOyEe2Ajtt_IXPLWg" name="Ocupación" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_juMWwNOyEe2Ajtt_IXPLWg" name="getNumero"/>
+        <ownedOperation xmi:id="_llSbQNOyEe2Ajtt_IXPLWg" name="getTamaño"/>
+        <ownedOperation xmi:id="_nM5SQNOyEe2Ajtt_IXPLWg" name="getPiso"/>
+        <ownedOperation xmi:id="_ob7RMNOyEe2Ajtt_IXPLWg" name="getPrecio"/>
+        <ownedOperation xmi:id="_qbVkMNOyEe2Ajtt_IXPLWg" name="getOcupacion"/>
+        <ownedOperation xmi:id="_sGrrsNOyEe2Ajtt_IXPLWg" name="setNumero"/>
+        <ownedOperation xmi:id="_tVzKMNOyEe2Ajtt_IXPLWg" name="setTamaño"/>
+        <ownedOperation xmi:id="_u0eusNOyEe2Ajtt_IXPLWg" name="setPiso"/>
+        <ownedOperation xmi:id="_w5sHsNOyEe2Ajtt_IXPLWg" name="setPrecio"/>
+        <ownedOperation xmi:id="_yUaZQNOyEe2Ajtt_IXPLWg" name="setOcupacion"/>
+        <ownedOperation xmi:id="_zwkOMNOyEe2Ajtt_IXPLWg" name="THabitacion"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_Qi_KUNOrEe2Ajtt_IXPLWg" supplier="_O0YTcNOrEe2Ajtt_IXPLWg" client="_ycoQgNJGEe2HNbfNf69dcg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_oE4XYNI3Ee2HNbfNf69dcg" name="Empleados">
@@ -845,6 +940,8 @@
         <ownedAttribute xmi:id="_RnJeYNOdEe2lHuV8rLLu-Q" name="Telefono" visibility="private">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </ownedAttribute>
+        <ownedAttribute xmi:id="_CzP_sNOyEe2Ajtt_IXPLWg" name="Lugar" visibility="private"/>
+        <ownedAttribute xmi:id="_HJuQsNOyEe2Ajtt_IXPLWg" name="Especialidad" visibility="private"/>
         <ownedOperation xmi:id="_SqET8NOdEe2lHuV8rLLu-Q" name="getId"/>
         <ownedOperation xmi:id="_aLsc4NOeEe2lHuV8rLLu-Q" name="getSueldo"/>
         <ownedOperation xmi:id="_baM3YNOeEe2lHuV8rLLu-Q" name="getNombre"/>
@@ -860,6 +957,10 @@
         <ownedOperation xmi:id="_4--j4NOeEe2lHuV8rLLu-Q" name="setActivado"/>
         <ownedOperation xmi:id="_6xfqYNOeEe2lHuV8rLLu-Q" name="setTelefono"/>
         <ownedOperation xmi:id="_8n_R8NOeEe2lHuV8rLLu-Q" name="TEmpleado"/>
+        <ownedOperation xmi:id="_DeR5sNOyEe2Ajtt_IXPLWg" name="getLugar"/>
+        <ownedOperation xmi:id="_FIy6wNOyEe2Ajtt_IXPLWg" name="setLugar"/>
+        <ownedOperation xmi:id="_IBV1MNOyEe2Ajtt_IXPLWg" name="getEspecialidad"/>
+        <ownedOperation xmi:id="_JX70sNOyEe2Ajtt_IXPLWg" name="setEspecialidad"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_m3CHENOeEe2lHuV8rLLu-Q" supplier="_HUsXINOdEe2lHuV8rLLu-Q" client="_7M4aoNJFEe24t7stphxYgg"/>
     </packagedElement>
@@ -1060,7 +1161,29 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_qHwiMNJEEe24t7stphxYgg" client="_VyT98NJCEe24t7stphxYgg">
         <supplier xmi:type="uml:Class" href="platform:/resource/HotelIS3/Paquete%20en%20blanco.emx#_aiQM8NJEEe24t7stphxYgg?Paquete%20en%20blanco/Negocio/Departamentos/TDepartamentos?"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_K0yRYNOrEe2Ajtt_IXPLWg" name="TDepartamentos"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_K0yRYNOrEe2Ajtt_IXPLWg" name="TDepartamentos">
+        <ownedAttribute xmi:id="_cuDmwNOwEe2Ajtt_IXPLWg" name="Id" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_d9BUQNOwEe2Ajtt_IXPLWg" name="Jefe" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_e-VAQNOwEe2Ajtt_IXPLWg" name="Nombre" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_gtjiMNOwEe2Ajtt_IXPLWg" name="Activado" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_TNmuwNOxEe2Ajtt_IXPLWg" name="getId"/>
+        <ownedOperation xmi:id="_Ubk9wNOxEe2Ajtt_IXPLWg" name="getJefe"/>
+        <ownedOperation xmi:id="_VhI3oNOxEe2Ajtt_IXPLWg" name="getNombre"/>
+        <ownedOperation xmi:id="_WmCqMNOxEe2Ajtt_IXPLWg" name="getActivado"/>
+        <ownedOperation xmi:id="_YZjPMNOxEe2Ajtt_IXPLWg" name="setId"/>
+        <ownedOperation xmi:id="_ZjQCMNOxEe2Ajtt_IXPLWg" name="setJefe"/>
+        <ownedOperation xmi:id="_aiDMwNOxEe2Ajtt_IXPLWg" name="setNombre"/>
+        <ownedOperation xmi:id="_bmBLMNOxEe2Ajtt_IXPLWg" name="setActivado"/>
+        <ownedOperation xmi:id="_dPJsMNOxEe2Ajtt_IXPLWg" name="TDepartamentos"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_NErQYNOrEe2Ajtt_IXPLWg" supplier="_K0yRYNOrEe2Ajtt_IXPLWg" client="_VyT98NJCEe24t7stphxYgg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_rFlIQNI3Ee2HNbfNf69dcg" name="Tareas">
@@ -1264,7 +1387,29 @@
         <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.sql.Statement%5Bproject%5Eid=HotelIS2%5D$uml.Interface"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="__9A3kNOfEe2lHuV8rLLu-Q" supplier="_qEUaYNJJEe24t7stphxYgg" client="_mc5AsNJJEe24t7stphxYgg"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_VtVvUNOrEe2Ajtt_IXPLWg" name="TTareas"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_VtVvUNOrEe2Ajtt_IXPLWg" name="TTareas">
+        <ownedAttribute xmi:id="_xfwMsNOzEe2Ajtt_IXPLWg" name="Id" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_yNsQwNOzEe2Ajtt_IXPLWg" name="Nombre" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_zv0K0NOzEe2Ajtt_IXPLWg" name="Lugar" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_0t-cMNOzEe2Ajtt_IXPLWg" name="Descripcion" visibility="private">
+          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_DPZeQNO0Ee2Ajtt_IXPLWg" name="getId"/>
+        <ownedOperation xmi:id="_F-zDwNO0Ee2Ajtt_IXPLWg" name="getNombre"/>
+        <ownedOperation xmi:id="_Hk9JQNO0Ee2Ajtt_IXPLWg" name="getLugar"/>
+        <ownedOperation xmi:id="_LDgTwNO0Ee2Ajtt_IXPLWg" name="getDescripcion"/>
+        <ownedOperation xmi:id="_NQCcwNO0Ee2Ajtt_IXPLWg" name="setId"/>
+        <ownedOperation xmi:id="_OLFvwNO0Ee2Ajtt_IXPLWg" name="setNombre"/>
+        <ownedOperation xmi:id="_PabQsNO0Ee2Ajtt_IXPLWg" name="setLugar"/>
+        <ownedOperation xmi:id="_QjhmwNO0Ee2Ajtt_IXPLWg" name="setDescripcion"/>
+        <ownedOperation xmi:id="_SHYmMNO0Ee2Ajtt_IXPLWg" name="TTareas"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_XAhOcNOrEe2Ajtt_IXPLWg" supplier="_VtVvUNOrEe2Ajtt_IXPLWg" client="_qEUaYNJJEe24t7stphxYgg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_oUwWsNJIEe2HNbfNf69dcg" name="FactoriaIntegracion">
