@@ -1829,13 +1829,22 @@
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_0xSJ0NI9Ee2HNbfNf69dcg" name="TCliente">
         <ownedAttribute xmi:id="_4wr-oNI9Ee2HNbfNf69dcg" name="id" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_XLbp0NI-Ee2HNbfNf69dcg" name="Correo" visibility="private">
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_YzcwgNI-Ee2HNbfNf69dcg" name="Telefono" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_jCJzENRVEe2xJOiVfKDtMg" name="Nombre" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_m45bINRVEe2xJOiVfKDtMg" name="Apellidos" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_q8vrENRVEe2xJOiVfKDtMg" name="NIF" visibility="private">
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedOperation xmi:id="_SpWXANJEEe2HNbfNf69dcg" name="getid"/>
         <ownedOperation xmi:id="_TrYbwNJEEe2HNbfNf69dcg" name="getCorreo"/>
@@ -2604,7 +2613,7 @@
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_aiQM8NJEEe24t7stphxYgg" name="TDepartamentos">
         <ownedAttribute xmi:id="_q6zvwNJEEe24t7stphxYgg" name="id" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_wvmY4NJEEe24t7stphxYgg" name="jefe" visibility="private">
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
