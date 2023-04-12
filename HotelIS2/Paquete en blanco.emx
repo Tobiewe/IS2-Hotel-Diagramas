@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.6-->
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<!--Rational Software Architect Designer 9.6.1-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_Gx0NgNIyEe2HNbfNf69dcg" name="Paquete en blanco">
   <eAnnotations xmi:id="_Gx0NgdIyEe2HNbfNf69dcg" source="uml2.diagrams" references="_Gx0NgtIyEe2HNbfNf69dcg">
@@ -2239,8 +2239,8 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_hjXa0NVbEe2rB-TnhlLxGg" supplier="_1UZAUNPREe2Ajtt_IXPLWg" client="_YWG2UNU1Ee20rJJICf759A"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_uuIEkNVeEe2rB-TnhlLxGg" name="Controller">
-        <ownedAttribute xmi:id="_DdPigNVgEe2rB-TnhlLxGg" name="Instancia" visibility="private" type="_uuIEkNVeEe2rB-TnhlLxGg"/>
-        <ownedOperation xmi:id="_Lqc0gNVgEe2rB-TnhlLxGg" name="obtener"/>
+        <ownedAttribute xmi:id="_DdPigNVgEe2rB-TnhlLxGg" name="Instance" visibility="private" type="_uuIEkNVeEe2rB-TnhlLxGg"/>
+        <ownedOperation xmi:id="_Lqc0gNVgEe2rB-TnhlLxGg" name="getInstance"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_i5DpINVgEe2rB-TnhlLxGg" supplier="_jEkMQNJEEe24t7stphxYgg" client="_YWG2UNU1Ee20rJJICf759A"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_wgyDENVgEe2rB-TnhlLxGg" supplier="_DsAbsNJJEe24t7stphxYgg" client="_YWG2UNU1Ee20rJJICf759A"/>
@@ -2428,10 +2428,10 @@
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_H0OugNUsEe20rJJICf759A" name="CIF" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_MdfYoNUsEe20rJJICf759A" name="Activo" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Boolean%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedOperation xmi:id="_SpWXANJEEe2HNbfNf69dcg" name="getid"/>
         <ownedOperation xmi:id="_TrYbwNJEEe2HNbfNf69dcg" name="getCorreo"/>
@@ -2624,25 +2624,25 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_bC-NANJHEe2HNbfNf69dcg" name="SAReservaIMP" clientDependency="_KldcQNJIEe2HNbfNf69dcg _E9x3YNPPEe2Ajtt_IXPLWg _K1Oy8NPPEe2Ajtt_IXPLWg _KeS80NPTEe2Ajtt_IXPLWg"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_cVu1YNJHEe2HNbfNf69dcg" name="TReservas">
         <ownedAttribute xmi:id="_xBUToNJHEe2HNbfNf69dcg" name="id" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_zM2XENJHEe2HNbfNf69dcg" name="Total" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Float%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_0evcwNJHEe2HNbfNf69dcg" name="FechaEntrada" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF8SkGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/date?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.util.Date%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_2B1nMNJHEe2HNbfNf69dcg" name="Noches" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_trnh4NLxEe2TtPJ8BD3bmQ" name="idCliente" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_nP0ZsNPOEe2Ajtt_IXPLWg" name="Nombre" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="__YvokNUuEe20rJJICf759A" name="Activo" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Boolean%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedOperation xmi:id="_yHLIcNJHEe2HNbfNf69dcg" name="getid"/>
         <ownedOperation xmi:id="_26-OoNJHEe2HNbfNf69dcg" name="getTotal"/>
@@ -2809,22 +2809,22 @@
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_9bdngNJEEe2HNbfNf69dcg" name="THabitacion">
         <ownedAttribute xmi:id="_OjWVgNJFEe2HNbfNf69dcg" name="Numero" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_T2g4QNJFEe2HNbfNf69dcg" name="Piso" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_UjFqYNJFEe2HNbfNf69dcg" name="Tamaño" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Float%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_VkDYINJFEe2HNbfNf69dcg" name="Precio" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Float%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_Wx8HkNJFEe2HNbfNf69dcg" name="Ocupada" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Boolean%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_P3190NL2Ee2TtPJ8BD3bmQ" name="idEmpleado" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedOperation xmi:id="_ZG-FQNJFEe2HNbfNf69dcg" name="getNumero"/>
         <ownedOperation xmi:id="_aL_zoNJFEe2HNbfNf69dcg" name="getPiso"/>
@@ -3022,34 +3022,34 @@
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_SyZd8NJHEe24t7stphxYgg" name="TEmpleados">
         <ownedAttribute xmi:id="_we3G0NJHEe24t7stphxYgg" name="id" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_2zwMUNJHEe24t7stphxYgg" name="sueldo" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Float%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_3iYM4NJHEe24t7stphxYgg" name="nombre" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_411_4NJHEe24t7stphxYgg" name="activado" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Boolean%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_5rqNkNJHEe24t7stphxYgg" name="correoElectronico" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_7NfzwNJHEe24t7stphxYgg" name="telefono" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_rgIIcNL2Ee2TtPJ8BD3bmQ" name="idDepartamento" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_IqcvsNPKEe2Ajtt_IXPLWg" name="Apellidos" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_O3lnENUtEe20rJJICf759A" name="Lugar" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_SaftINUtEe20rJJICf759A" name="Especialidad" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedOperation xmi:id="_76dAYNJHEe24t7stphxYgg" name="getId"/>
         <ownedOperation xmi:id="_kEqagNJIEe24t7stphxYgg" name="setId"/>
@@ -3076,7 +3076,7 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_VwKPkNJHEe24t7stphxYgg" name="TEmpleadoMantenimiento" clientDependency="_-ix4ENJIEe24t7stphxYgg">
         <generalization xmi:id="_AGRrINJJEe24t7stphxYgg" general="_SyZd8NJHEe24t7stphxYgg"/>
         <ownedAttribute xmi:id="_3yFAUNJIEe24t7stphxYgg" name="Especialidad" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedOperation xmi:id="_6a3AcNJIEe24t7stphxYgg" name="getLugar"/>
         <ownedOperation xmi:id="_7OjuQNJIEe24t7stphxYgg" name="setLugar"/>
@@ -3084,7 +3084,7 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_YD_6cNJHEe24t7stphxYgg" name="TEmpleadoLimpieza">
         <generalization xmi:id="__BWqcNJIEe24t7stphxYgg" general="_SyZd8NJHEe24t7stphxYgg"/>
         <ownedAttribute xmi:id="_ysowgNJIEe24t7stphxYgg" name="Lugar" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedOperation xmi:id="_41SJwNJIEe24t7stphxYgg" name="getLugar"/>
         <ownedOperation xmi:id="_5tHwsNJIEe24t7stphxYgg" name="setLugar"/>
@@ -3402,22 +3402,22 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_6RsA4NJJEe24t7stphxYgg" name="TTareas">
         <ownedAttribute xmi:id="_E7lXwNJKEe24t7stphxYgg" name="id" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_G0Tz8NJKEe24t7stphxYgg" name="descripcion" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_HX8sgNJKEe24t7stphxYgg" name="lugar" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_H6xFsNJKEe24t7stphxYgg" name="nombre" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKF-ikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/string?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_YhWIMNPQEe2Ajtt_IXPLWg" name="activa" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6BupAddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/Boolean?"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_ZRfLsNPQEe2Ajtt_IXPLWg" name="id_empleado" visibility="private">
-          <type xmi:type="uml:Class" href="pathmap://XSD_LIBRARIES/XSDDataTypes.library.emx#_7yKGCikGEdmDdasWev0kGA?XSDDataTypes/XSDDataTypes/integer?"/>
+          <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
         <ownedOperation xmi:id="_IUAsINJKEe24t7stphxYgg" name="getId"/>
         <ownedOperation xmi:id="_SICyANJKEe24t7stphxYgg" name="getDescripcion"/>
