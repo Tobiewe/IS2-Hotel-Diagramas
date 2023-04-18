@@ -47,7 +47,7 @@
             </children>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_JmlhkdI6Ee2HNbfNf69dcg" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Jmn90NI6Ee2HNbfNf69dcg" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JmjFUdI6Ee2HNbfNf69dcg" x="12144" y="3168"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JmjFUdI6Ee2HNbfNf69dcg" x="12144" y="3168" height="1244"/>
           </children>
           <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_4emhYNJDEe2HNbfNf69dcg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
             <children xmi:type="notation:DecorationNode" xmi:id="_4enIcNJDEe2HNbfNf69dcg" type="ImageCompartment">
@@ -195,6 +195,8 @@
         <ownedOperation xmi:id="_zoQpENI5Ee2HNbfNf69dcg" name="Modificar"/>
         <ownedOperation xmi:id="_0ta6UNI5Ee2HNbfNf69dcg" name="MostarUno"/>
         <ownedOperation xmi:id="_17kIcNI5Ee2HNbfNf69dcg" name="MostrarTodos"/>
+        <ownedOperation xmi:id="_WGJLEN3WEe2f7I1S9C2RZg" name="MostrarParticular"/>
+        <ownedOperation xmi:id="_YqBdEN3WEe2f7I1S9C2RZg" name="MostrarEmpresa"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_HOisINI6Ee2HNbfNf69dcg" name="DAOClienteIMP" clientDependency="_OsxYQNI6Ee2HNbfNf69dcg _4fjjoNJDEe2HNbfNf69dcg _FvPRANJEEe2HNbfNf69dcg _HqdAgNJEEe2HNbfNf69dcg _Jrm_8NJEEe2HNbfNf69dcg _MwqsYNJEEe2HNbfNf69dcg"/>
       <packagedElement xmi:type="uml:Realization" xmi:id="_OsxYQNI6Ee2HNbfNf69dcg" supplier="_oqXYINI5Ee2HNbfNf69dcg" client="_HOisINI6Ee2HNbfNf69dcg"/>
@@ -390,13 +392,11 @@
       </eAnnotations>
       <packagedElement xmi:type="uml:Interface" xmi:id="_qPFx4NJHEe2HNbfNf69dcg" name="DAOReservas" clientDependency="_MWZ1cNJIEe2HNbfNf69dcg _GXLTQNPPEe2Ajtt_IXPLWg">
         <ownedOperation xmi:id="_EtIW8NJIEe2HNbfNf69dcg" name="abrir"/>
-        <ownedOperation xmi:id="_FbYkENJIEe2HNbfNf69dcg" name="añadir"/>
-        <ownedOperation xmi:id="_F5RZ8NJIEe2HNbfNf69dcg" name="quitarHab"/>
-        <ownedOperation xmi:id="_GcElANJIEe2HNbfNf69dcg" name="cerrar"/>
+        <ownedOperation xmi:id="_FbYkENJIEe2HNbfNf69dcg" name="eliminar"/>
         <ownedOperation xmi:id="_G0cBsNJIEe2HNbfNf69dcg" name="modificar"/>
         <ownedOperation xmi:id="_HTkNsNJIEe2HNbfNf69dcg" name="mostrarUna"/>
         <ownedOperation xmi:id="_ICr9gNJIEe2HNbfNf69dcg" name="mostrarTodas"/>
-        <ownedOperation xmi:id="_hRLcYNOfEe2lHuV8rLLu-Q" name="borrarReserva"/>
+        <ownedOperation xmi:id="_hRLcYNOfEe2lHuV8rLLu-Q" name="leerReservasPorCliente"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_rp7YMNJHEe2HNbfNf69dcg" name="DAOReservasIMP" clientDependency="_QjPCQNJIEe2HNbfNf69dcg _R3uwANJIEe2HNbfNf69dcg _TlQo0NJIEe2HNbfNf69dcg _VnMEUNJIEe2HNbfNf69dcg _euPvcNJIEe2HNbfNf69dcg _hqF1gNJIEe2HNbfNf69dcg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_MWZ1cNJIEe2HNbfNf69dcg" client="_qPFx4NJHEe2HNbfNf69dcg">
@@ -612,6 +612,7 @@
         <ownedOperation xmi:id="_5gDP8NJGEe2HNbfNf69dcg" name="mostraUna"/>
         <ownedOperation xmi:id="_6wC4MNJGEe2HNbfNf69dcg" name="mostrarTodas"/>
         <ownedOperation xmi:id="_72T8sNJGEe2HNbfNf69dcg" name="mostrarTodasDisponibles"/>
+        <ownedOperation xmi:id="_OJMQsN3YEe2f7I1S9C2RZg" name="leerHabitacionesPorEmpleado"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="__BI58NJGEe2HNbfNf69dcg" supplier="_ycoQgNJGEe2HNbfNf69dcg" client="_9LZ80NJFEe2HNbfNf69dcg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_IJ5OMNJHEe2HNbfNf69dcg" client="_ycoQgNJGEe2HNbfNf69dcg">
@@ -798,10 +799,11 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_0obPINJFEe24t7stphxYgg" name="DAOEmpleadosIMP" clientDependency="_jBAQANJGEe24t7stphxYgg _lJowcNJGEe24t7stphxYgg _nfz9oNJGEe24t7stphxYgg _qjUx8NJGEe24t7stphxYgg _yXU5wNJGEe24t7stphxYgg _9TA20NOcEe2lHuV8rLLu-Q"/>
       <packagedElement xmi:type="uml:Interface" xmi:id="_7M4aoNJFEe24t7stphxYgg" name="DAOEmpleados" clientDependency="_RpY8kNJJEe24t7stphxYgg _iupt4NPJEe2Ajtt_IXPLWg">
         <ownedOperation xmi:id="_DFVkoNJGEe24t7stphxYgg" name="crear"/>
-        <ownedOperation xmi:id="_ExyfYNJGEe24t7stphxYgg" name="eliminar"/>
+        <ownedOperation xmi:id="_ExyfYNJGEe24t7stphxYgg" name="borrar"/>
         <ownedOperation xmi:id="_FmddkNJGEe24t7stphxYgg" name="modificar"/>
-        <ownedOperation xmi:id="_HMMFQNJGEe24t7stphxYgg" name="leerUno"/>
-        <ownedOperation xmi:id="_IIPd0NJGEe24t7stphxYgg" name="leerTodos"/>
+        <ownedOperation xmi:id="_HMMFQNJGEe24t7stphxYgg" name="mostrarUno"/>
+        <ownedOperation xmi:id="_IIPd0NJGEe24t7stphxYgg" name="mostrarTodos"/>
+        <ownedOperation xmi:id="_08FkgN3WEe2f7I1S9C2RZg" name="mostrarPorDepartamento"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_jBAQANJGEe24t7stphxYgg" client="_0obPINJFEe24t7stphxYgg">
         <supplier xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.sql.Connection%5Bproject%5Eid=HotelIS2%5D$uml.Interface"/>
@@ -996,11 +998,11 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_Lt8WANJCEe24t7stphxYgg" name="DAODepartamentosImp" clientDependency="_uwyYQNJDEe24t7stphxYgg _ClqQ8NJEEe24t7stphxYgg _HcyX8NJEEe24t7stphxYgg _JmgdgNJEEe24t7stphxYgg _M8BAwNJEEe24t7stphxYgg _USdC0NJEEe24t7stphxYgg"/>
       <packagedElement xmi:type="uml:Interface" xmi:id="_VyT98NJCEe24t7stphxYgg" name="DAODepartamentos" clientDependency="_qHwiMNJEEe24t7stphxYgg _Z3c18NPEEe2Ajtt_IXPLWg">
         <ownedOperation xmi:id="_1od3MNJCEe24t7stphxYgg" name="crear"/>
-        <ownedOperation xmi:id="_3sRiANJCEe24t7stphxYgg" name="eliminar"/>
-        <ownedOperation xmi:id="_4opqsNJCEe24t7stphxYgg" name="editar"/>
-        <ownedOperation xmi:id="_5JtwYNJCEe24t7stphxYgg" name="leerUno"/>
-        <ownedOperation xmi:id="_58ROsNJCEe24t7stphxYgg" name="leerTodos"/>
-        <ownedOperation xmi:id="_WDb_UNOkEe2lHuV8rLLu-Q" name="mostrarEmpleados"/>
+        <ownedOperation xmi:id="_3sRiANJCEe24t7stphxYgg" name="borrar"/>
+        <ownedOperation xmi:id="_4opqsNJCEe24t7stphxYgg" name="modificar"/>
+        <ownedOperation xmi:id="_5JtwYNJCEe24t7stphxYgg" name="mostrarUno"/>
+        <ownedOperation xmi:id="_58ROsNJCEe24t7stphxYgg" name="mostrarPorNombre"/>
+        <ownedOperation xmi:id="_WDb_UNOkEe2lHuV8rLLu-Q" name="mostrarTodos"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="_uwyYQNJDEe24t7stphxYgg" supplier="_VyT98NJCEe24t7stphxYgg" client="_Lt8WANJCEe24t7stphxYgg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_ClqQ8NJEEe24t7stphxYgg" client="_Lt8WANJCEe24t7stphxYgg">
@@ -1199,8 +1201,6 @@
         <ownedOperation xmi:id="_9fHJsNJKEe24t7stphxYgg" name="modificar"/>
         <ownedOperation xmi:id="_99DC4NJKEe24t7stphxYgg" name="leerUno"/>
         <ownedOperation xmi:id="_-e9dINJKEe24t7stphxYgg" name="leerTodos"/>
-        <ownedOperation xmi:id="_Ir1o4NOgEe2lHuV8rLLu-Q" name="vincular"/>
-        <ownedOperation xmi:id="_KFyeYNOgEe2lHuV8rLLu-Q" name="desvincular"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_aKBEYNJKEe24t7stphxYgg" client="_qEUaYNJJEe24t7stphxYgg">
         <supplier xmi:type="uml:Class" href="platform:/resource/HotelIS3/Paquete%20en%20blanco.emx#_6RsA4NJJEe24t7stphxYgg?Paquete%20en%20blanco/Negocio/Tareas/TTareas?"/>
@@ -1577,14 +1577,16 @@
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_xtEJ4NJIEe2HNbfNf69dcg" name="FactoriaIntegracion" clientDependency="_HkoTENJJEe2HNbfNf69dcg _MeflANJJEe2HNbfNf69dcg _xtRUANOiEe2lHuV8rLLu-Q _V5BUgNOjEe2lHuV8rLLu-Q _o0LW8NOjEe2lHuV8rLLu-Q _zLjacNOjEe2lHuV8rLLu-Q _53qGENOjEe2lHuV8rLLu-Q">
-        <ownedAttribute xmi:id="_7pU-sNJIEe2HNbfNf69dcg" name="instancia" visibility="private" type="_xtEJ4NJIEe2HNbfNf69dcg"/>
+        <ownedAttribute xmi:id="_7pU-sNJIEe2HNbfNf69dcg" name="instance" visibility="private" type="_xtEJ4NJIEe2HNbfNf69dcg"/>
         <ownedOperation xmi:id="__ZsR8NJIEe2HNbfNf69dcg" name="getInstance"/>
-        <ownedOperation xmi:id="_ARomkNJJEe2HNbfNf69dcg" name="generarDAOClientes"/>
-        <ownedOperation xmi:id="_UObF0NOhEe2lHuV8rLLu-Q" name="generarDAODepartamentos"/>
-        <ownedOperation xmi:id="_hzX4kNOhEe2lHuV8rLLu-Q" name="generarDAOEmpleados"/>
-        <ownedOperation xmi:id="_mA6QANOhEe2lHuV8rLLu-Q" name="generarDAOHabitaciones"/>
-        <ownedOperation xmi:id="_pusJUNOhEe2lHuV8rLLu-Q" name="generarDAOReservas"/>
-        <ownedOperation xmi:id="_uBYtkNOhEe2lHuV8rLLu-Q" name="generarDAOTareas"/>
+        <ownedOperation xmi:id="_ARomkNJJEe2HNbfNf69dcg" name="newDAOCliente"/>
+        <ownedOperation xmi:id="_UObF0NOhEe2lHuV8rLLu-Q" name="newDAODepartamento"/>
+        <ownedOperation xmi:id="_hzX4kNOhEe2lHuV8rLLu-Q" name="newDAOEmpleado"/>
+        <ownedOperation xmi:id="_mA6QANOhEe2lHuV8rLLu-Q" name="newDAOHabitaciones"/>
+        <ownedOperation xmi:id="_pusJUNOhEe2lHuV8rLLu-Q" name="newDAOReserva"/>
+        <ownedOperation xmi:id="_uBYtkNOhEe2lHuV8rLLu-Q" name="newDAOTarea"/>
+        <ownedOperation xmi:id="_OBm3cN3XEe2f7I1S9C2RZg" name="newDAOLineaReserva"/>
+        <ownedOperation xmi:id="_SSnZoN3XEe2f7I1S9C2RZg" name="newDAOTareasDelEmpleado"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_0ZFEMNJIEe2HNbfNf69dcg" name="FactoriaIntegracionIMP" clientDependency="_MCJnQNJJEe2HNbfNf69dcg _vVXogNOiEe2lHuV8rLLu-Q _OqIr8NOjEe2lHuV8rLLu-Q _m4MycNOjEe2lHuV8rLLu-Q _v7legNOjEe2lHuV8rLLu-Q _4IP98NOjEe2lHuV8rLLu-Q">
         <generalization xmi:id="_HM9Z8NJJEe2HNbfNf69dcg" general="_xtEJ4NJIEe2HNbfNf69dcg"/>
@@ -1603,9 +1605,9 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_4IP98NOjEe2lHuV8rLLu-Q" supplier="_mc5AsNJJEe24t7stphxYgg" client="_0ZFEMNJIEe2HNbfNf69dcg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_53qGENOjEe2lHuV8rLLu-Q" supplier="_qEUaYNJJEe24t7stphxYgg" client="_xtEJ4NJIEe2HNbfNf69dcg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_v-WsQNUwEe20rJJICf759A" name="ReservaHabitacion">
+    <packagedElement xmi:type="uml:Package" xmi:id="_v-WsQNUwEe20rJJICf759A" name="LineaReserva">
       <eAnnotations xmi:id="_v-bkwNUwEe20rJJICf759A" source="uml2.diagrams">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_11VtwNUwEe20rJJICf759A" type="Class" name="DCReservaHabitacion">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_11VtwNUwEe20rJJICf759A" type="Class" name="DCLineaReserva">
           <children xmi:type="umlnotation:UMLShape" xmi:id="_6rNQgNUwEe20rJJICf759A" element="_6rK0QNUwEe20rJJICf759A" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_6rN3kNUwEe20rJJICf759A" type="ImageCompartment">
               <layoutConstraint xmi:type="notation:Size" xmi:id="_6rN3kdUwEe20rJJICf759A" width="1320" height="1320"/>
@@ -1627,23 +1629,14 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_FKhvENUxEe20rJJICf759A" type="Kind"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_FKhvEdUxEe20rJJICf759A" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_FKhvEtUxEe20rJJICf759A" type="Parent"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_FKhvE9UxEe20rJJICf759A" type="AttributeCompartment"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_FKiWINUxEe20rJJICf759A" type="OperationCompartment"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_FKiWIdUxEe20rJJICf759A" visible="false" type="SignalCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FKf54dUxEe20rJJICf759A" x="6223" y="4826"/>
-          </children>
-          <children xmi:type="umlnotation:UMLShape" xmi:id="_OBfIsNUxEe20rJJICf759A" element="_OSMgkNL0Ee2TtPJ8BD3bmQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-            <children xmi:type="notation:DecorationNode" xmi:id="_OBfvwNUxEe20rJJICf759A" type="ImageCompartment">
-              <layoutConstraint xmi:type="notation:Size" xmi:id="_OBfvwdUxEe20rJJICf759A" width="1320" height="1320"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_FKhvE9UxEe20rJJICf759A" type="AttributeCompartment">
+              <layoutConstraint xmi:type="notation:Ratio" xmi:id="_K7XxMN3VEe2f7I1S9C2RZg" value="0.12526629740093737"/>
             </children>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OBfvwtUxEe20rJJICf759A" type="Stereotype"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OBgW0NUxEe20rJJICf759A" type="Name"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_OBg94NUxEe20rJJICf759A" type="Parent"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OBg94dUxEe20rJJICf759A" type="AttributeCompartment"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OBg94tUxEe20rJJICf759A" type="OperationCompartment"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_OBhk8NUxEe20rJJICf759A" visible="false" type="SignalCompartment"/>
-            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_OBhk8dUxEe20rJJICf759A" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OBfIsdUxEe20rJJICf759A" x="508" y="4318"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_FKiWINUxEe20rJJICf759A" type="OperationCompartment">
+              <layoutConstraint xmi:type="notation:Ratio" xmi:id="_K7XxMd3VEe2f7I1S9C2RZg" value="0.8747337025990626"/>
+            </children>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_FKiWIdUxEe20rJJICf759A" visible="false" type="SignalCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FKf54dUxEe20rJJICf759A" x="6223" y="3556" width="5161" height="3952"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_RB0tMNUxEe20rJJICf759A" element="_cVu1YNJHEe2HNbfNf69dcg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_RB1UQNUxEe20rJJICf759A" type="ImageCompartment">
@@ -1739,6 +1732,19 @@
             <element xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.sql.ResultSet%5Bproject%5Eid=HotelIS2%5D$uml.Interface"/>
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DYXdYdqhEe2ygJd5DDBvQA" x="22352" y="8826"/>
           </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_CvTnUN3YEe2f7I1S9C2RZg" element="_OSMgkNL0Ee2TtPJ8BD3bmQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_CvdYUN3YEe2f7I1S9C2RZg" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_CvdYUd3YEe2f7I1S9C2RZg" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_CvdYUt3YEe2f7I1S9C2RZg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_CvdYU93YEe2f7I1S9C2RZg" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_CvdYVN3YEe2f7I1S9C2RZg" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_CvdYVd3YEe2f7I1S9C2RZg" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_CvdYVt3YEe2f7I1S9C2RZg" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_CvdYV93YEe2f7I1S9C2RZg" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_CvdYWN3YEe2f7I1S9C2RZg" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CvTnUd3YEe2f7I1S9C2RZg" x="1016" y="4064"/>
+          </children>
           <element xsi:nil="true"/>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_LCgPENUxEe20rJJICf759A" element="_LCGmcNUxEe20rJJICf759A" source="_6rNQgNUwEe20rJJICf759A" target="_FKf54NUxEe20rJJICf759A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_LCg2INUxEe20rJJICf759A" type="NameLabel">
@@ -1747,14 +1753,6 @@
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LCg2IdUxEe20rJJICf759A" y="-149"/>
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LCgPEdUxEe20rJJICf759A" points="[-2210, -8, 7950, 203]$[-8203, -8, 1957, 203]"/>
-          </edges>
-          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Pda7MNUxEe20rJJICf759A" element="_PdDHwNUxEe20rJJICf759A" source="_FKf54NUxEe20rJJICf759A" target="_OBfIsNUxEe20rJJICf759A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-            <children xmi:type="notation:DecorationNode" xmi:id="_PdbiQNUxEe20rJJICf759A" type="NameLabel">
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_PdcJUNUxEe20rJJICf759A" type="Stereotype"/>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_PdcJUdUxEe20rJJICf759A" type="Name"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PdbiQdUxEe20rJJICf759A" y="-149"/>
-            </children>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Pda7MdUxEe20rJJICf759A" points="[-92, 14, 189, -19]$[-199, 34, 82, 1]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_R2HQ4NUxEe20rJJICf759A" element="_R2E0oNUxEe20rJJICf759A" source="_FKf54NUxEe20rJJICf759A" target="_RB0tMNUxEe20rJJICf759A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_R2H38NUxEe20rJJICf759A" type="NameLabel">
@@ -1812,14 +1810,27 @@
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DYdkAdqhEe2ygJd5DDBvQA" points="[-75, -24, 793, 260]$[-866, -284, 2, 0]"/>
           </edges>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_CvdYWd3YEe2f7I1S9C2RZg" element="_PdDHwNUxEe20rJJICf759A" source="_FKf54NUxEe20rJJICf759A" target="_CvTnUN3YEe2f7I1S9C2RZg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_CvdYW93YEe2f7I1S9C2RZg" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_CvdYXd3YEe2f7I1S9C2RZg" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_CvdYXt3YEe2f7I1S9C2RZg" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CvdYXN3YEe2f7I1S9C2RZg" y="-149"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CvdYWt3YEe2f7I1S9C2RZg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+          </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:Class" xmi:id="_6rK0QNUwEe20rJJICf759A" name="DAOReservaHabitacionIMP" clientDependency="_LCGmcNUxEe20rJJICf759A _WYFzkNqdEe2ygJd5DDBvQA _fS98gNqgEe2ygJd5DDBvQA _4ogBYNqgEe2ygJd5DDBvQA __LLEMNqgEe2ygJd5DDBvQA _DYbu0NqhEe2ygJd5DDBvQA">
+      <packagedElement xmi:type="uml:Class" xmi:id="_6rK0QNUwEe20rJJICf759A" name="DAOLineaReservaIMP" clientDependency="_LCGmcNUxEe20rJJICf759A _WYFzkNqdEe2ygJd5DDBvQA _fS98gNqgEe2ygJd5DDBvQA _4ogBYNqgEe2ygJd5DDBvQA __LLEMNqgEe2ygJd5DDBvQA _DYbu0NqhEe2ygJd5DDBvQA">
         <interfaceRealization xmi:id="_LCGmcNUxEe20rJJICf759A" supplier="_FKeEsNUxEe20rJJICf759A" client="_6rK0QNUwEe20rJJICf759A" contract="_FKeEsNUxEe20rJJICf759A"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_FKeEsNUxEe20rJJICf759A" name="DAOReservaHabitacion" clientDependency="_PdDHwNUxEe20rJJICf759A _R2E0oNUxEe20rJJICf759A _U1LDANUxEe20rJJICf759A">
-        <ownedOperation xmi:id="_NbOkgNUyEe20rJJICf759A" name="vincular"/>
-        <ownedOperation xmi:id="_OvwugNUyEe20rJJICf759A" name="desvincular"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_FKeEsNUxEe20rJJICf759A" name="DAOLineaReserva" clientDependency="_PdDHwNUxEe20rJJICf759A _R2E0oNUxEe20rJJICf759A _U1LDANUxEe20rJJICf759A">
+        <ownedOperation xmi:id="_NbOkgNUyEe20rJJICf759A" name="crear"/>
+        <ownedOperation xmi:id="_OvwugNUyEe20rJJICf759A" name="eliminar"/>
+        <ownedOperation xmi:id="_Fg1bIN3VEe2f7I1S9C2RZg" name="modificar"/>
+        <ownedOperation xmi:id="_HGHW4N3VEe2f7I1S9C2RZg" name="leerUno"/>
+        <ownedOperation xmi:id="_LPhcQN3VEe2f7I1S9C2RZg" name="leerTodos"/>
+        <ownedOperation xmi:id="_M5FbEN3VEe2f7I1S9C2RZg" name="leerLineasPedidoPorHabitacion"/>
+        <ownedOperation xmi:id="_V9QKQN3VEe2f7I1S9C2RZg" name="leerLineasPedidoPorReserva"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_PdDHwNUxEe20rJJICf759A" supplier="_OSMgkNL0Ee2TtPJ8BD3bmQ" client="_FKeEsNUxEe20rJJICf759A"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_R2E0oNUxEe20rJJICf759A" supplier="_cVu1YNJHEe2HNbfNf69dcg" client="_FKeEsNUxEe20rJJICf759A"/>
@@ -2053,8 +2064,11 @@
       </eAnnotations>
       <packagedElement xmi:type="uml:Class" xmi:id="_kL4R0NUyEe20rJJICf759A" name="DAOTareaEmpleadoIMP" clientDependency="_tIrNsNUyEe20rJJICf759A _MfNtINqhEe2ygJd5DDBvQA _SV8P8NqhEe2ygJd5DDBvQA _ZpVlENqhEe2ygJd5DDBvQA _dJG3kNqhEe2ygJd5DDBvQA _gHoeMNqhEe2ygJd5DDBvQA"/>
       <packagedElement xmi:type="uml:Interface" xmi:id="_nKAP0NUyEe20rJJICf759A" name="DAOTareaEmpleado" clientDependency="_w_7zINUyEe20rJJICf759A _zhGIUNUyEe20rJJICf759A _2pljQNUyEe20rJJICf759A">
-        <ownedOperation xmi:id="_o5kwANUyEe20rJJICf759A" name="vincular"/>
-        <ownedOperation xmi:id="_qHPdANUyEe20rJJICf759A" name="desvincular"/>
+        <ownedOperation xmi:id="_o5kwANUyEe20rJJICf759A" name="crear"/>
+        <ownedOperation xmi:id="_qHPdANUyEe20rJJICf759A" name="modificar"/>
+        <ownedOperation xmi:id="_3RQhkN3VEe2f7I1S9C2RZg" name="leerTodos"/>
+        <ownedOperation xmi:id="_4pA-sN3VEe2f7I1S9C2RZg" name="leerLineaPedidosPorTareas"/>
+        <ownedOperation xmi:id="_77Kr8N3VEe2f7I1S9C2RZg" name="leerLineasPedidoPorEmpleado"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="_tIrNsNUyEe20rJJICf759A" supplier="_nKAP0NUyEe20rJJICf759A" client="_kL4R0NUyEe20rJJICf759A"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_w_7zINUyEe20rJJICf759A" supplier="_y0AJQNL3Ee2TtPJ8BD3bmQ" client="_nKAP0NUyEe20rJJICf759A"/>
@@ -2931,7 +2945,7 @@
         <ownedOperation xmi:id="_ONX6gNUvEe20rJJICf759A" name="TReservas"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_KldcQNJIEe2HNbfNf69dcg" supplier="_cVu1YNJHEe2HNbfNf69dcg" client="_bC-NANJHEe2HNbfNf69dcg"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_OSMgkNL0Ee2TtPJ8BD3bmQ" name="TReservaHabitacion">
+      <packagedElement xmi:type="uml:Class" xmi:id="_OSMgkNL0Ee2TtPJ8BD3bmQ" name="TLineaReserva">
         <ownedAttribute xmi:id="_QgY2cNL0Ee2TtPJ8BD3bmQ" name="ocupacion" visibility="private"/>
         <ownedAttribute xmi:id="_TGDRINL0Ee2TtPJ8BD3bmQ" name="idHabitacion" visibility="private"/>
         <ownedAttribute xmi:id="_TM8jUNL0Ee2TtPJ8BD3bmQ" name="idReserva" visibility="private"/>
