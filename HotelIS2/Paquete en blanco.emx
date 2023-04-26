@@ -6729,6 +6729,31 @@
       <packagedElement xmi:type="uml:Interface" xmi:id="_6NSIINVhEe2rB-TnhlLxGg" name="GUI"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_96FxENVhEe2rB-TnhlLxGg" supplier="_YWG2UNU1Ee20rJJICf759A" client="_YWG2UNU1Ee20rJJICf759A"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_BVSsoNViEe2rB-TnhlLxGg" supplier="_6NSIINVhEe2rB-TnhlLxGg" client="_YWG2UNU1Ee20rJJICf759A"/>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_6KeZ0OQJEe2qk5KIk1bR4w" name="Collaboration1">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_6KeZ0eQJEe2qk5KIk1bR4w" name="Controller">
+          <eAnnotations xmi:id="_6KoK0OQJEe2qk5KIk1bR4w" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_6KoK0eQJEe2qk5KIk1bR4w" type="Sequence" element="_6KeZ0eQJEe2qk5KIk1bR4w" name="DSController" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_6KoK0uQJEe2qk5KIk1bR4w" element="_6KeZ0eQJEe2qk5KIk1bR4w" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_6KoK0-QJEe2qk5KIk1bR4w" type="interaction_compartment">
+                  <children xmi:type="umlnotation:UMLShape" xmi:id="_CUem0OQKEe2qk5KIk1bR4w" element="_CUVc4OQKEe2qk5KIk1bR4w" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                    <eAnnotations xmi:id="_CUem0uQKEe2qk5KIk1bR4w" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                      <details xmi:id="_CUem0-QKEe2qk5KIk1bR4w" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                    </eAnnotations>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_CUem1OQKEe2qk5KIk1bR4w" type="Stereotype"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_CUem1eQKEe2qk5KIk1bR4w" type="Name"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_CUem1uQKEe2qk5KIk1bR4w" type="Parent"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CUem0eQKEe2qk5KIk1bR4w" x="264"/>
+                  </children>
+                </children>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_6KoK1OQJEe2qk5KIk1bR4w" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6KoK1eQJEe2qk5KIk1bR4w" x="793" y="793"/>
+              </children>
+            </contents>
+          </eAnnotations>
+          <lifeline xmi:id="_CUVc4OQKEe2qk5KIk1bR4w" name="Property" represents="_CUVc4eQKEe2qk5KIk1bR4w"/>
+        </ownedBehavior>
+        <ownedAttribute xmi:id="_CUVc4eQKEe2qk5KIk1bR4w" name=""/>
+      </packagedElement>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_QSLwgNIyEe2HNbfNf69dcg" name="Negocio">
