@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.6.1-->
-<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<!--Rational Software Architect Designer 9.6-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_Gx0NgNIyEe2HNbfNf69dcg" name="Paquete en blanco">
   <eAnnotations xmi:id="_Gx0NgdIyEe2HNbfNf69dcg" source="uml2.diagrams" references="_Gx0NgtIyEe2HNbfNf69dcg">
@@ -6252,6 +6252,31 @@
       <packagedElement xmi:type="uml:Class" xmi:id="_qKnB4NJEEe2HNbfNf69dcg" name="VHabitaciones">
         <ownedOperation xmi:id="_sXphMNJEEe2HNbfNf69dcg" name="new"/>
         <ownedOperation xmi:id="_tnweMNJEEe2HNbfNf69dcg" name="VHabitaciones"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_UDLLoORWEe2xmOaliOD9fw" name="VHabitacion">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_UDpFsORWEe2xmOaliOD9fw" name="CrearHabitacionbutton">
+          <eAnnotations xmi:id="_UEahwORWEe2xmOaliOD9fw" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_UEahweRWEe2xmOaliOD9fw" type="Sequence" element="_UDpFsORWEe2xmOaliOD9fw" name="DSCrearHabitacionButton" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_UEahwuRWEe2xmOaliOD9fw" element="_UDpFsORWEe2xmOaliOD9fw" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_UEahw-RWEe2xmOaliOD9fw" type="interaction_compartment">
+                  <children xmi:type="umlnotation:UMLShape" xmi:id="_cp1fcORWEe2xmOaliOD9fw" element="_cpvY0ORWEe2xmOaliOD9fw" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                    <eAnnotations xmi:id="_cp2tkORWEe2xmOaliOD9fw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                      <details xmi:id="_cp37sORWEe2xmOaliOD9fw" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                    </eAnnotations>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_cp37seRWEe2xmOaliOD9fw" type="Stereotype"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_cp37suRWEe2xmOaliOD9fw" type="Name"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_cp5J0ORWEe2xmOaliOD9fw" type="Parent"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cp1fceRWEe2xmOaliOD9fw" x="211"/>
+                  </children>
+                </children>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_UEahxORWEe2xmOaliOD9fw" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UEahxeRWEe2xmOaliOD9fw" x="635" y="635"/>
+              </children>
+            </contents>
+          </eAnnotations>
+          <lifeline xmi:id="_cpvY0ORWEe2xmOaliOD9fw" name="Property" represents="_cpvY0eRWEe2xmOaliOD9fw"/>
+        </ownedBehavior>
+        <ownedAttribute xmi:id="_cpvY0eRWEe2xmOaliOD9fw" name=""/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_RS9pUNI4Ee2HNbfNf69dcg" name="Empleados">
