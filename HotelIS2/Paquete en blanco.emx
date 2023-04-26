@@ -14325,7 +14325,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2hkfMeRmEe2xmOaliOD9fw" x="-21" y="168" width="3279" height="28814"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_3qyxEORmEe2xmOaliOD9fw" element="_3qqOMuRmEe2xmOaliOD9fw" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3qyxEeRmEe2xmOaliOD9fw" x="-1" y="1237" height="740"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3qyxEeRmEe2xmOaliOD9fw" x="-1" y="1237" height="359"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_YXPZIORnEe2xmOaliOD9fw" element="_YXNj8ORnEe2xmOaliOD9fw" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <eAnnotations xmi:id="_YXQnQORnEe2xmOaliOD9fw" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -14447,7 +14447,7 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3qz_M-RmEe2xmOaliOD9fw" y="381"/>
                 </children>
                 <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3qz_MeRmEe2xmOaliOD9fw" points="[0, 0, 143, 0]$[-143, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3q0mQORmEe2xmOaliOD9fw" id="1113:740"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3q0mQORmEe2xmOaliOD9fw" id="1113:359"/>
                 <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3q0mQeRmEe2xmOaliOD9fw" id="1114:0"/>
               </edges>
               <edges xmi:type="umlnotation:UMLConnector" xmi:id="_bxbBAORnEe2xmOaliOD9fw" element="_bxR3EORnEe2xmOaliOD9fw" source="_2hkfMORmEe2xmOaliOD9fw" target="_YXPZIORnEe2xmOaliOD9fw" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
