@@ -1706,7 +1706,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Dld2k-E2Ee2ZsfWhRbjAHQ" covered="_xBY3YOE1Ee2ZsfWhRbjAHQ" event="_EkTdYOE2Ee2ZsfWhRbjAHQ" message="_Dld2lOE2Ee2ZsfWhRbjAHQ"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Dld2leE2Ee2ZsfWhRbjAHQ" covered="_jg2DgOE1Ee2ZsfWhRbjAHQ" event="_EkTdYeE2Ee2ZsfWhRbjAHQ" message="_Dld2lOE2Ee2ZsfWhRbjAHQ"/>
           <message xmi:id="_DldPgOE2Ee2ZsfWhRbjAHQ" name="borrar" receiveEvent="_Dld2keE2Ee2ZsfWhRbjAHQ" sendEvent="_Dld2kOE2Ee2ZsfWhRbjAHQ" connector="_Dld2luE2Ee2ZsfWhRbjAHQ"/>
-          <message xmi:id="_Dld2lOE2Ee2ZsfWhRbjAHQ" name="borrar" messageSort="reply" receiveEvent="_Dld2leE2Ee2ZsfWhRbjAHQ" sendEvent="_Dld2k-E2Ee2ZsfWhRbjAHQ" connector="_Dld2luE2Ee2ZsfWhRbjAHQ"/>
+          <message xmi:id="_Dld2lOE2Ee2ZsfWhRbjAHQ" name="key" messageSort="reply" receiveEvent="_Dld2leE2Ee2ZsfWhRbjAHQ" sendEvent="_Dld2k-E2Ee2ZsfWhRbjAHQ" connector="_Dld2luE2Ee2ZsfWhRbjAHQ"/>
           <message xmi:id="_NE-d8OE2Ee2ZsfWhRbjAHQ" name="getConnection" receiveEvent="_NE-d8uE2Ee2ZsfWhRbjAHQ" sendEvent="_NE-d8eE2Ee2ZsfWhRbjAHQ" connector="_NE_FBOE2Ee2ZsfWhRbjAHQ"/>
           <message xmi:id="_NE_FAuE2Ee2ZsfWhRbjAHQ" name="getConnection" messageSort="reply" receiveEvent="_NE_FA-E2Ee2ZsfWhRbjAHQ" sendEvent="_NE_FAeE2Ee2ZsfWhRbjAHQ" connector="_NE_FBOE2Ee2ZsfWhRbjAHQ"/>
           <message xmi:id="_bPvTgOE2Ee2ZsfWhRbjAHQ" name="prepareStatement" receiveEvent="_bPv6kOE2Ee2ZsfWhRbjAHQ" sendEvent="_bPvTgeE2Ee2ZsfWhRbjAHQ" connector="_bPv6leE2Ee2ZsfWhRbjAHQ"/>
