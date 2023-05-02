@@ -14672,8 +14672,8 @@
           <message xmi:id="_SBP4leOEEe29SKBsUvtZ5Q" name="newDAOHabitaciones" messageSort="reply" receiveEvent="_SBP4luOEEe29SKBsUvtZ5Q" sendEvent="_SBP4lOOEEe29SKBsUvtZ5Q" connector="_SBP4l-OEEe29SKBsUvtZ5Q"/>
           <message xmi:id="_iOgxYOOEEe29SKBsUvtZ5Q" name="getNumero" receiveEvent="_iOgxYuOEEe29SKBsUvtZ5Q" sendEvent="_iOgxYeOEEe29SKBsUvtZ5Q" connector="_iOgxZ-OEEe29SKBsUvtZ5Q"/>
           <message xmi:id="_iOgxZeOEEe29SKBsUvtZ5Q" name="getNumero" messageSort="reply" receiveEvent="_iOgxZuOEEe29SKBsUvtZ5Q" sendEvent="_iOgxZOOEEe29SKBsUvtZ5Q" connector="_iOgxZ-OEEe29SKBsUvtZ5Q"/>
-          <message xmi:id="_khKwgOOEEe29SKBsUvtZ5Q" name="mostraUna" receiveEvent="_khKwguOEEe29SKBsUvtZ5Q" sendEvent="_khKwgeOEEe29SKBsUvtZ5Q" connector="_khKwh-OEEe29SKBsUvtZ5Q"/>
-          <message xmi:id="_khKwheOEEe29SKBsUvtZ5Q" name="mostraUna" messageSort="reply" receiveEvent="_khKwhuOEEe29SKBsUvtZ5Q" sendEvent="_khKwhOOEEe29SKBsUvtZ5Q" connector="_khKwh-OEEe29SKBsUvtZ5Q"/>
+          <message xmi:id="_khKwgOOEEe29SKBsUvtZ5Q" name="MostrarUna" receiveEvent="_khKwguOEEe29SKBsUvtZ5Q" sendEvent="_khKwgeOEEe29SKBsUvtZ5Q" connector="_khKwh-OEEe29SKBsUvtZ5Q"/>
+          <message xmi:id="_khKwheOEEe29SKBsUvtZ5Q" name="MostrarUna" messageSort="reply" receiveEvent="_khKwhuOEEe29SKBsUvtZ5Q" sendEvent="_khKwhOOEEe29SKBsUvtZ5Q" connector="_khKwh-OEEe29SKBsUvtZ5Q"/>
           <message xmi:id="_u_Fg4OOEEe29SKBsUvtZ5Q" name="modificar" receiveEvent="_u_Fg4uOEEe29SKBsUvtZ5Q" sendEvent="_u_Fg4eOEEe29SKBsUvtZ5Q" connector="_khKwh-OEEe29SKBsUvtZ5Q"/>
           <message xmi:id="_u_Fg5eOEEe29SKBsUvtZ5Q" name="modificar" messageSort="reply" receiveEvent="_u_Fg5uOEEe29SKBsUvtZ5Q" sendEvent="_u_Fg5OOEEe29SKBsUvtZ5Q" connector="_khKwh-OEEe29SKBsUvtZ5Q"/>
           <message xmi:id="_Ww5kgOQGEe2FU7qoUGAlVw" name="getInstance" receiveEvent="_Ww5kguQGEe2FU7qoUGAlVw" sendEvent="_Ww5kgeQGEe2FU7qoUGAlVw" connector="_SBP4l-OEEe29SKBsUvtZ5Q"/>
