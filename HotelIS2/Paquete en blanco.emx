@@ -15508,7 +15508,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SzKEZOOJEe29SKBsUvtZ5Q" covered="_RjaTwOOJEe29SKBsUvtZ5Q" event="_TDQV4OOJEe29SKBsUvtZ5Q" message="_SzKEZeOJEe29SKBsUvtZ5Q"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SzKEZuOJEe29SKBsUvtZ5Q" covered="_QVg9QOOJEe29SKBsUvtZ5Q" event="_TDQV4eOJEe29SKBsUvtZ5Q" message="_SzKEZeOJEe29SKBsUvtZ5Q"/>
           <message xmi:id="_SzKEYOOJEe29SKBsUvtZ5Q" name="mostrarTodas" receiveEvent="_SzKEYuOJEe29SKBsUvtZ5Q" sendEvent="_SzKEYeOJEe29SKBsUvtZ5Q" connector="_SzKEZ-OJEe29SKBsUvtZ5Q"/>
-          <message xmi:id="_SzKEZeOJEe29SKBsUvtZ5Q" name="mostrarTodas" messageSort="reply" receiveEvent="_SzKEZuOJEe29SKBsUvtZ5Q" sendEvent="_SzKEZOOJEe29SKBsUvtZ5Q" connector="_SzKEZ-OJEe29SKBsUvtZ5Q"/>
+          <message xmi:id="_SzKEZeOJEe29SKBsUvtZ5Q" name="lista" messageSort="reply" receiveEvent="_SzKEZuOJEe29SKBsUvtZ5Q" sendEvent="_SzKEZOOJEe29SKBsUvtZ5Q" connector="_SzKEZ-OJEe29SKBsUvtZ5Q"/>
           <message xmi:id="_eph1cOOJEe29SKBsUvtZ5Q" name="newDAOHabitaciones" receiveEvent="_eph1cuOJEe29SKBsUvtZ5Q" sendEvent="_eph1ceOJEe29SKBsUvtZ5Q" connector="_epq_YeOJEe29SKBsUvtZ5Q"/>
           <message xmi:id="_eph1deOJEe29SKBsUvtZ5Q" name="newDAOHabitaciones" messageSort="reply" receiveEvent="_epq_YOOJEe29SKBsUvtZ5Q" sendEvent="_eph1dOOJEe29SKBsUvtZ5Q" connector="_epq_YeOJEe29SKBsUvtZ5Q"/>
           <message xmi:id="_fr-w8OOJEe29SKBsUvtZ5Q" name="getInstance" receiveEvent="_fr-w8uOJEe29SKBsUvtZ5Q" sendEvent="_fr-w8eOJEe29SKBsUvtZ5Q" connector="_epq_YeOJEe29SKBsUvtZ5Q"/>
