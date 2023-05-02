@@ -3987,7 +3987,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_omM7EuH2Ee2ySIp7Sx5GCw" covered="_ldMiwOH2Ee2ySIp7Sx5GCw" event="_pL1XsOH2Ee2ySIp7Sx5GCw" message="_omM7E-H2Ee2ySIp7Sx5GCw"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_omM7FOH2Ee2ySIp7Sx5GCw" covered="_jHczYOH2Ee2ySIp7Sx5GCw" event="_pL1-wOH2Ee2ySIp7Sx5GCw" message="_omM7E-H2Ee2ySIp7Sx5GCw"/>
           <message xmi:id="_omMUAOH2Ee2ySIp7Sx5GCw" name="mostrarTodasDisponibles" receiveEvent="_omM7EOH2Ee2ySIp7Sx5GCw" sendEvent="_omMUAeH2Ee2ySIp7Sx5GCw" connector="_omM7FeH2Ee2ySIp7Sx5GCw"/>
-          <message xmi:id="_omM7E-H2Ee2ySIp7Sx5GCw" name="mostrarTodasDisponibles" messageSort="reply" receiveEvent="_omM7FOH2Ee2ySIp7Sx5GCw" sendEvent="_omM7EuH2Ee2ySIp7Sx5GCw" connector="_omM7FeH2Ee2ySIp7Sx5GCw"/>
+          <message xmi:id="_omM7E-H2Ee2ySIp7Sx5GCw" name="lista" messageSort="reply" receiveEvent="_omM7FOH2Ee2ySIp7Sx5GCw" sendEvent="_omM7EuH2Ee2ySIp7Sx5GCw" connector="_omM7FeH2Ee2ySIp7Sx5GCw"/>
           <message xmi:id="_vPuz0OH2Ee2ySIp7Sx5GCw" name="getConnection" receiveEvent="_vPuz0uH2Ee2ySIp7Sx5GCw" sendEvent="_vPuz0eH2Ee2ySIp7Sx5GCw" connector="_vPva4uH2Ee2ySIp7Sx5GCw"/>
           <message xmi:id="_vPva4OH2Ee2ySIp7Sx5GCw" name="getConnection" messageSort="reply" receiveEvent="_vPva4eH2Ee2ySIp7Sx5GCw" sendEvent="_vPuz1OH2Ee2ySIp7Sx5GCw" connector="_vPva4uH2Ee2ySIp7Sx5GCw"/>
           <message xmi:id="_9SoG0OH2Ee2ySIp7Sx5GCw" name="prepareStatement" receiveEvent="_9SoG0uH2Ee2ySIp7Sx5GCw" sendEvent="_9SoG0eH2Ee2ySIp7Sx5GCw" connector="_9Sot5OH2Ee2ySIp7Sx5GCw"/>
@@ -4008,7 +4008,7 @@
           <message xmi:id="_Maj50eH4Ee2YhqgsmTV__A" name="getBoolean" messageSort="reply" receiveEvent="_Maj50uH4Ee2YhqgsmTV__A" sendEvent="_Maj50OH4Ee2YhqgsmTV__A" connector="_5OqFoOH3Ee2YhqgsmTV__A"/>
           <message xmi:id="_OWieUOH4Ee2YhqgsmTV__A" name="getInt" receiveEvent="_OWjFYeH4Ee2YhqgsmTV__A" sendEvent="_OWjFYOH4Ee2YhqgsmTV__A" connector="_5OqFoOH3Ee2YhqgsmTV__A"/>
           <message xmi:id="_OWjFZOH4Ee2YhqgsmTV__A" name="getInt" messageSort="reply" receiveEvent="_OWjscOH4Ee2YhqgsmTV__A" sendEvent="_OWjFY-H4Ee2YhqgsmTV__A" connector="_5OqFoOH3Ee2YhqgsmTV__A"/>
-          <message xmi:id="_YHqaIOH4Ee2YhqgsmTV__A" name="THabitacion" messageSort="createMessage" receiveEvent="_YHrBMeH4Ee2YhqgsmTV__A" sendEvent="_YHrBMOH4Ee2YhqgsmTV__A" connector="_YHs2YOH4Ee2YhqgsmTV__A"/>
+          <message xmi:id="_YHqaIOH4Ee2YhqgsmTV__A" name="THabitaciones" messageSort="createMessage" receiveEvent="_YHrBMeH4Ee2YhqgsmTV__A" sendEvent="_YHrBMOH4Ee2YhqgsmTV__A" connector="_YHs2YOH4Ee2YhqgsmTV__A"/>
           <message xmi:id="_nS5YwOH5Ee2YhqgsmTV__A" name="add" receiveEvent="_nS5YwuH5Ee2YhqgsmTV__A" sendEvent="_nS5YweH5Ee2YhqgsmTV__A" connector="_nS5_0eH5Ee2YhqgsmTV__A"/>
           <message xmi:id="_nS5YxeH5Ee2YhqgsmTV__A" name="add" messageSort="reply" receiveEvent="_nS5_0OH5Ee2YhqgsmTV__A" sendEvent="_nS5YxOH5Ee2YhqgsmTV__A" connector="_nS5_0eH5Ee2YhqgsmTV__A"/>
           <message xmi:id="_Xwm6IOH6Ee2YhqgsmTV__A" name="close" receiveEvent="_XwnhMeH6Ee2YhqgsmTV__A" sendEvent="_XwnhMOH6Ee2YhqgsmTV__A" connector="_9Sot5OH2Ee2ySIp7Sx5GCw"/>
