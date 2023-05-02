@@ -2823,7 +2823,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3Kkp5OE6Ee2ZsfWhRbjAHQ" covered="_0H14sOE6Ee2ZsfWhRbjAHQ" event="_3oq7IOE6Ee2ZsfWhRbjAHQ" message="_3KlQ8OE6Ee2ZsfWhRbjAHQ"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3KlQ8eE6Ee2ZsfWhRbjAHQ" covered="_pUHQYOE6Ee2ZsfWhRbjAHQ" event="_3oq7IeE6Ee2ZsfWhRbjAHQ" message="_3KlQ8OE6Ee2ZsfWhRbjAHQ"/>
           <message xmi:id="_3Kkp4OE6Ee2ZsfWhRbjAHQ" name="mostraUna" receiveEvent="_3Kkp4uE6Ee2ZsfWhRbjAHQ" sendEvent="_3Kkp4eE6Ee2ZsfWhRbjAHQ" connector="_3KlQ8uE6Ee2ZsfWhRbjAHQ"/>
-          <message xmi:id="_3KlQ8OE6Ee2ZsfWhRbjAHQ" name="mostraUna" messageSort="reply" receiveEvent="_3KlQ8eE6Ee2ZsfWhRbjAHQ" sendEvent="_3Kkp5OE6Ee2ZsfWhRbjAHQ" connector="_3KlQ8uE6Ee2ZsfWhRbjAHQ"/>
+          <message xmi:id="_3KlQ8OE6Ee2ZsfWhRbjAHQ" name="tHabitaciones" messageSort="reply" receiveEvent="_3KlQ8eE6Ee2ZsfWhRbjAHQ" sendEvent="_3Kkp5OE6Ee2ZsfWhRbjAHQ" connector="_3KlQ8uE6Ee2ZsfWhRbjAHQ"/>
           <message xmi:id="_SYzVwOE7Ee2ZsfWhRbjAHQ" name="getConnection" receiveEvent="_SYz80eE7Ee2ZsfWhRbjAHQ" sendEvent="_SYz80OE7Ee2ZsfWhRbjAHQ" connector="_SY0j4-E7Ee2ZsfWhRbjAHQ"/>
           <message xmi:id="_SY0j4eE7Ee2ZsfWhRbjAHQ" name="getConnection" messageSort="reply" receiveEvent="_SY0j4uE7Ee2ZsfWhRbjAHQ" sendEvent="_SY0j4OE7Ee2ZsfWhRbjAHQ" connector="_SY0j4-E7Ee2ZsfWhRbjAHQ"/>
           <message xmi:id="_Y4Kl4OE7Ee2ZsfWhRbjAHQ" name="prepareStatement" receiveEvent="_Y4Kl4uE7Ee2ZsfWhRbjAHQ" sendEvent="_Y4Kl4eE7Ee2ZsfWhRbjAHQ" connector="_Y4LM9OE7Ee2ZsfWhRbjAHQ"/>
