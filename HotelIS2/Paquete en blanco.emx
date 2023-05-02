@@ -15900,7 +15900,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O9YLAOOcEe2tXPQPfOEVJQ" covered="_NS1UwOOcEe2tXPQPfOEVJQ" event="_PeIHoOOcEe2tXPQPfOEVJQ" message="_O9YLAeOcEe2tXPQPfOEVJQ"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_O9YLAuOcEe2tXPQPfOEVJQ" covered="_KxG-4OOcEe2tXPQPfOEVJQ" event="_PeIHoeOcEe2tXPQPfOEVJQ" message="_O9YLAeOcEe2tXPQPfOEVJQ"/>
           <message xmi:id="_O9Xj8OOcEe2tXPQPfOEVJQ" name="mostrarTodasDisponibles" receiveEvent="_O9Xj8uOcEe2tXPQPfOEVJQ" sendEvent="_O9Xj8eOcEe2tXPQPfOEVJQ" connector="_O9YLA-OcEe2tXPQPfOEVJQ"/>
-          <message xmi:id="_O9YLAeOcEe2tXPQPfOEVJQ" name="mostrarTodasDisponibles" messageSort="reply" receiveEvent="_O9YLAuOcEe2tXPQPfOEVJQ" sendEvent="_O9YLAOOcEe2tXPQPfOEVJQ" connector="_O9YLA-OcEe2tXPQPfOEVJQ"/>
+          <message xmi:id="_O9YLAeOcEe2tXPQPfOEVJQ" name="lista" messageSort="reply" receiveEvent="_O9YLAuOcEe2tXPQPfOEVJQ" sendEvent="_O9YLAOOcEe2tXPQPfOEVJQ" connector="_O9YLA-OcEe2tXPQPfOEVJQ"/>
           <message xmi:id="_Zx9u8OOcEe2tXPQPfOEVJQ" name="newDAOHabitaciones" receiveEvent="_Zx9u8uOcEe2tXPQPfOEVJQ" sendEvent="_Zx9u8eOcEe2tXPQPfOEVJQ" connector="_Zx-WAeOcEe2tXPQPfOEVJQ"/>
           <message xmi:id="_Zx9u9eOcEe2tXPQPfOEVJQ" name="newDAOHabitaciones" messageSort="reply" receiveEvent="_Zx-WAOOcEe2tXPQPfOEVJQ" sendEvent="_Zx9u9OOcEe2tXPQPfOEVJQ" connector="_Zx-WAeOcEe2tXPQPfOEVJQ"/>
           <message xmi:id="_azCxcOOcEe2tXPQPfOEVJQ" name="getInstance" receiveEvent="_azDYgeOcEe2tXPQPfOEVJQ" sendEvent="_azDYgOOcEe2tXPQPfOEVJQ" connector="_Zx-WAeOcEe2tXPQPfOEVJQ"/>
