@@ -15425,8 +15425,8 @@
         </ownedOperation>
         <ownedOperation xmi:id="_gMFmcNJIEe24t7stphxYgg" name="TDepartamento"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_dtJboNJEEe24t7stphxYgg" name="SADepartamentosIMP" clientDependency="_uQQlUNPIEe2Ajtt_IXPLWg _8c3N8NPIEe2Ajtt_IXPLWg _Er99YNPJEe2Ajtt_IXPLWg"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_jEkMQNJEEe24t7stphxYgg" name="SADepartamentos" clientDependency="_gkQWMNJFEe24t7stphxYgg">
+      <packagedElement xmi:type="uml:Class" xmi:id="_dtJboNJEEe24t7stphxYgg" name="SADepartamentoIMP" clientDependency="_uQQlUNPIEe2Ajtt_IXPLWg _8c3N8NPIEe2Ajtt_IXPLWg _Er99YNPJEe2Ajtt_IXPLWg"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_jEkMQNJEEe24t7stphxYgg" name="SADepartamento" clientDependency="_gkQWMNJFEe24t7stphxYgg">
         <ownedOperation xmi:id="_HfhtcNJFEe24t7stphxYgg" name="crear">
           <ownedParameter xmi:id="_fE-YsOjWEe29Z6ye5xviJg" name="Parameter1" direction="return">
             <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
@@ -16013,7 +16013,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZMNbQ9VeEe2rB-TnhlLxGg" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZMNbQdVeEe2rB-TnhlLxGg" y="-149"/>
             </children>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZMM0MdVeEe2rB-TnhlLxGg" points="[2401, 903, -5622, -11310]$[3019, 903, -5004, -11310]$[3019, 12255, -5004, 42]$[5940, 12255, -2083, 42]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZMM0MdVeEe2rB-TnhlLxGg" points="[2401, 963, -5633, -11429]$[3400, 963, -4634, -11429]$[3400, 9793, -4634, -2599]$[6702, 9793, -1332, -2599]$[6702, 10555, -1332, -1837]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_ckdJcNVeEe2rB-TnhlLxGg" element="_ckatMNVeEe2rB-TnhlLxGg" source="__VcjgNVbEe2rB-TnhlLxGg" target="_IpxjsNVeEe2rB-TnhlLxGg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_ckdwgNVeEe2rB-TnhlLxGg" type="NameLabel">
@@ -16033,28 +16033,28 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:Class" xmi:id="__VaHQNVbEe2rB-TnhlLxGg" name="SAFactoria" clientDependency="_fNBjoNVdEe2rB-TnhlLxGg _P8T9MNVeEe2rB-TnhlLxGg _TI2KoNVeEe2rB-TnhlLxGg _XfVCsNVeEe2rB-TnhlLxGg _ZMLmENVeEe2rB-TnhlLxGg _ckatMNVeEe2rB-TnhlLxGg _eodokNVeEe2rB-TnhlLxGg">
-        <ownedAttribute xmi:id="_DuJCENVcEe2rB-TnhlLxGg" name="instancia" visibility="private" type="__VaHQNVbEe2rB-TnhlLxGg"/>
-        <ownedOperation xmi:id="_KG7JENVcEe2rB-TnhlLxGg" name="getInstancia">
+      <packagedElement xmi:type="uml:Class" xmi:id="__VaHQNVbEe2rB-TnhlLxGg" name="SAFactory" clientDependency="_fNBjoNVdEe2rB-TnhlLxGg _P8T9MNVeEe2rB-TnhlLxGg _TI2KoNVeEe2rB-TnhlLxGg _XfVCsNVeEe2rB-TnhlLxGg _ZMLmENVeEe2rB-TnhlLxGg _ckatMNVeEe2rB-TnhlLxGg _eodokNVeEe2rB-TnhlLxGg">
+        <ownedAttribute xmi:id="_DuJCENVcEe2rB-TnhlLxGg" name="instance" visibility="private" type="__VaHQNVbEe2rB-TnhlLxGg"/>
+        <ownedOperation xmi:id="_KG7JENVcEe2rB-TnhlLxGg" name="getInstance">
           <ownedParameter xmi:id="_9PSS0NVcEe2rB-TnhlLxGg" name="Parameter1" type="__VaHQNVbEe2rB-TnhlLxGg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_QwL8ENVcEe2rB-TnhlLxGg" name="generarSAClientes">
-          <ownedParameter xmi:id="_AXXeENVdEe2rB-TnhlLxGg" name="Parameter1" type="_1UZAUNPREe2Ajtt_IXPLWg" direction="return"/>
+        <ownedOperation xmi:id="_QwL8ENVcEe2rB-TnhlLxGg" name="newSAHabitaciones">
+          <ownedParameter xmi:id="_AXXeENVdEe2rB-TnhlLxGg" name="Parameter1" type="_-QMLwNPTEe2Ajtt_IXPLWg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_Vk3zENVcEe2rB-TnhlLxGg" name="generarSADepartamentos">
-          <ownedParameter xmi:id="_GorrINVdEe2rB-TnhlLxGg" name="Parameter1" type="_jEkMQNJEEe24t7stphxYgg" direction="return"/>
+        <ownedOperation xmi:id="_Vk3zENVcEe2rB-TnhlLxGg" name="newSATarea">
+          <ownedParameter xmi:id="_GorrINVdEe2rB-TnhlLxGg" name="Parameter1" type="_36XkMNJJEe24t7stphxYgg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_dLniANVcEe2rB-TnhlLxGg" name="generarSAEmpleados">
-          <ownedParameter xmi:id="_Kb0lkNVdEe2rB-TnhlLxGg" name="Parameter1" type="_DsAbsNJJEe24t7stphxYgg" direction="return"/>
+        <ownedOperation xmi:id="_dLniANVcEe2rB-TnhlLxGg" name="newSADepartamento">
+          <ownedParameter xmi:id="_Kb0lkNVdEe2rB-TnhlLxGg" name="Parameter1" type="_jEkMQNJEEe24t7stphxYgg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_jCsDENVcEe2rB-TnhlLxGg" name="generarSAHabitaciones">
-          <ownedParameter xmi:id="_OAFWgNVdEe2rB-TnhlLxGg" name="Parameter1" type="_-QMLwNPTEe2Ajtt_IXPLWg" direction="return"/>
+        <ownedOperation xmi:id="_jCsDENVcEe2rB-TnhlLxGg" name="newSACliente">
+          <ownedParameter xmi:id="_OAFWgNVdEe2rB-TnhlLxGg" name="Parameter1" type="_1UZAUNPREe2Ajtt_IXPLWg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_2-22kNVcEe2rB-TnhlLxGg" name="generarSAReservas">
+        <ownedOperation xmi:id="_2-22kNVcEe2rB-TnhlLxGg" name="newSAReserva">
           <ownedParameter xmi:id="_UMcLENVdEe2rB-TnhlLxGg" name="Parameter1" type="_w_9hQNPSEe2Ajtt_IXPLWg" direction="return"/>
         </ownedOperation>
-        <ownedOperation xmi:id="_4xq4ANVcEe2rB-TnhlLxGg" name="generarSATareas">
-          <ownedParameter xmi:id="_WE1QENVdEe2rB-TnhlLxGg" name="Parameter1" type="_36XkMNJJEe24t7stphxYgg" direction="return"/>
+        <ownedOperation xmi:id="_4xq4ANVcEe2rB-TnhlLxGg" name="newSAEmpleado">
+          <ownedParameter xmi:id="_WE1QENVdEe2rB-TnhlLxGg" name="Parameter1" type="_DsAbsNJJEe24t7stphxYgg" direction="return"/>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_bQEl4NVdEe2rB-TnhlLxGg" name="SAFactoriaIMP" clientDependency="_4UYpoNVdEe2rB-TnhlLxGg _43tZINVdEe2rB-TnhlLxGg _5tCeoNVdEe2rB-TnhlLxGg _6VKOkNVdEe2rB-TnhlLxGg _7WZpINVdEe2rB-TnhlLxGg _8SDZENVdEe2rB-TnhlLxGg">
