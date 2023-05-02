@@ -15704,7 +15704,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2CC2MeOYEe2tXPQPfOEVJQ" covered="_xARlcOOYEe2tXPQPfOEVJQ" event="__VbtIOOYEe2tXPQPfOEVJQ" message="_2CDdQOOYEe2tXPQPfOEVJQ"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2CEEUOOYEe2tXPQPfOEVJQ" covered="_mljTAOOYEe2tXPQPfOEVJQ" event="__VbtIeOYEe2tXPQPfOEVJQ" message="_2CDdQOOYEe2tXPQPfOEVJQ"/>
           <message xmi:id="_2CBoEOOYEe2tXPQPfOEVJQ" name="mostrarPorempleado" receiveEvent="_2CCPIeOYEe2tXPQPfOEVJQ" sendEvent="_2CCPIOOYEe2tXPQPfOEVJQ" connector="_2CErYOOYEe2tXPQPfOEVJQ"/>
-          <message xmi:id="_2CDdQOOYEe2tXPQPfOEVJQ" name="mostrarPorempleado" messageSort="reply" receiveEvent="_2CEEUOOYEe2tXPQPfOEVJQ" sendEvent="_2CC2MeOYEe2tXPQPfOEVJQ" connector="_2CErYOOYEe2tXPQPfOEVJQ"/>
+          <message xmi:id="_2CDdQOOYEe2tXPQPfOEVJQ" name="lista" messageSort="reply" receiveEvent="_2CEEUOOYEe2tXPQPfOEVJQ" sendEvent="_2CC2MeOYEe2tXPQPfOEVJQ" connector="_2CErYOOYEe2tXPQPfOEVJQ"/>
           <message xmi:id="_JyEEEOOZEe2tXPQPfOEVJQ" name="newDAOHabitaciones" receiveEvent="_JyF5QOOZEe2tXPQPfOEVJQ" sendEvent="_JyFSMOOZEe2tXPQPfOEVJQ" connector="_JyGgUuOZEe2tXPQPfOEVJQ"/>
           <message xmi:id="_JyGgUOOZEe2tXPQPfOEVJQ" name="newDAOHabitaciones" messageSort="reply" receiveEvent="_JyGgUeOZEe2tXPQPfOEVJQ" sendEvent="_JyF5QuOZEe2tXPQPfOEVJQ" connector="_JyGgUuOZEe2tXPQPfOEVJQ"/>
           <message xmi:id="_LJUx8OOZEe2tXPQPfOEVJQ" name="getInstance" receiveEvent="_LJVZAeOZEe2tXPQPfOEVJQ" sendEvent="_LJVZAOOZEe2tXPQPfOEVJQ" connector="_JyGgUuOZEe2tXPQPfOEVJQ"/>
