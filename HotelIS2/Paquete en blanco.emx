@@ -632,13 +632,39 @@
         <supplier xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.sql.SQLException%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_ycoQgNJGEe2HNbfNf69dcg" name="DAOHabitacion" clientDependency="_IJ5OMNJHEe2HNbfNf69dcg _FExBkNJNEe24t7stphxYgg _hsoTYNPNEe2Ajtt_IXPLWg">
-        <ownedOperation xmi:id="_1nUD0NJGEe2HNbfNf69dcg" name="añadir"/>
-        <ownedOperation xmi:id="_2TLrUNJGEe2HNbfNf69dcg" name="borrar"/>
-        <ownedOperation xmi:id="_498ocNJGEe2HNbfNf69dcg" name="modificar"/>
-        <ownedOperation xmi:id="_5gDP8NJGEe2HNbfNf69dcg" name="mostraUna"/>
-        <ownedOperation xmi:id="_6wC4MNJGEe2HNbfNf69dcg" name="mostrarTodas"/>
-        <ownedOperation xmi:id="_72T8sNJGEe2HNbfNf69dcg" name="mostrarTodasDisponibles"/>
-        <ownedOperation xmi:id="_OJMQsN3YEe2f7I1S9C2RZg" name="leerHabitacionesPorEmpleado"/>
+        <ownedOperation xmi:id="_1nUD0NJGEe2HNbfNf69dcg" name="añadir">
+          <ownedParameter xmi:id="_jEqV0OjgEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_2TLrUNJGEe2HNbfNf69dcg" name="borrar">
+          <ownedParameter xmi:id="_l_DDUOjgEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_498ocNJGEe2HNbfNf69dcg" name="modificar">
+          <ownedParameter xmi:id="_oAIxUOjgEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_5gDP8NJGEe2HNbfNf69dcg" name="MostrarUna">
+          <ownedParameter xmi:id="_sNXmwOjgEe29Z6ye5xviJg" name="Parameter1" type="_9bdngNJEEe2HNbfNf69dcg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_6wC4MNJGEe2HNbfNf69dcg" name="MostrarTodas">
+          <ownedParameter xmi:id="_4u6bwOjgEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.Collection%5Bproject%5Eid=HotelIS2%5D$uml.Interface"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_72T8sNJGEe2HNbfNf69dcg" name="MostrarTodasDisponibles">
+          <ownedParameter xmi:id="_7_HoQOjgEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.Collection%5Bproject%5Eid=HotelIS2%5D$uml.Interface"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_OJMQsN3YEe2f7I1S9C2RZg" name="leerHabitacionesPorEmpleado">
+          <ownedParameter xmi:id="_-kJJwOjgEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.Collection%5Bproject%5Eid=HotelIS2%5D$uml.Interface"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Realization" xmi:id="__BI58NJGEe2HNbfNf69dcg" supplier="_ycoQgNJGEe2HNbfNf69dcg" client="_9LZ80NJFEe2HNbfNf69dcg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_IJ5OMNJHEe2HNbfNf69dcg" client="_ycoQgNJGEe2HNbfNf69dcg">
@@ -10779,7 +10805,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_j5z8pdPNEe2Ajtt_IXPLWg" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j5z8o9PNEe2Ajtt_IXPLWg" y="-149"/>
             </children>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j5z8odPNEe2Ajtt_IXPLWg" points="[10, 29, -876, -5140]$[10, 3511, -876, -1658]"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j5z8odPNEe2Ajtt_IXPLWg" points="[10, 29, -1162, -5319]$[10, 3511, -1162, -1837]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lRaBsNPNEe2Ajtt_IXPLWg" id="(0.8139097744360902,0.97224709042077)"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_n_k4INPNEe2Ajtt_IXPLWg" element="_n_kRENPNEe2Ajtt_IXPLWg" source="_KR2rINJFEe2HNbfNf69dcg" target="_e1XLUNPNEe2Ajtt_IXPLWg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -10808,50 +10834,124 @@
           </edges>
         </contents>
       </eAnnotations>
-      <packagedElement xmi:type="uml:Class" xmi:id="_9bdngNJEEe2HNbfNf69dcg" name="THabitacion">
-        <ownedAttribute xmi:id="_OjWVgNJFEe2HNbfNf69dcg" name="Numero" visibility="private">
+      <packagedElement xmi:type="uml:Class" xmi:id="_9bdngNJEEe2HNbfNf69dcg" name="THabitaciones">
+        <ownedAttribute xmi:id="_OjWVgNJFEe2HNbfNf69dcg" name="numero" visibility="private">
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.String%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_T2g4QNJFEe2HNbfNf69dcg" name="Piso" visibility="private">
+        <ownedAttribute xmi:id="_T2g4QNJFEe2HNbfNf69dcg" name="piso" visibility="private">
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_UjFqYNJFEe2HNbfNf69dcg" name="Tamaño" visibility="private">
+        <ownedAttribute xmi:id="_UjFqYNJFEe2HNbfNf69dcg" name="tamaño" visibility="private">
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Float%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_VkDYINJFEe2HNbfNf69dcg" name="Precio" visibility="private">
+        <ownedAttribute xmi:id="_VkDYINJFEe2HNbfNf69dcg" name="precio" visibility="private">
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Float%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_Wx8HkNJFEe2HNbfNf69dcg" name="Ocupada" visibility="private">
+        <ownedAttribute xmi:id="_Wx8HkNJFEe2HNbfNf69dcg" name="ocupada" visibility="private">
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Boolean%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
-        <ownedAttribute xmi:id="_P3190NL2Ee2TtPJ8BD3bmQ" name="idEmpleado" visibility="private">
+        <ownedAttribute xmi:id="_P3190NL2Ee2TtPJ8BD3bmQ" name="id_empleado" visibility="private">
           <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
         </ownedAttribute>
-        <ownedOperation xmi:id="_ZG-FQNJFEe2HNbfNf69dcg" name="getNumero"/>
-        <ownedOperation xmi:id="_aL_zoNJFEe2HNbfNf69dcg" name="getPiso"/>
-        <ownedOperation xmi:id="_bAa6MNJFEe2HNbfNf69dcg" name="getTamanyo"/>
-        <ownedOperation xmi:id="_cA8jENJFEe2HNbfNf69dcg" name="getPrecio"/>
-        <ownedOperation xmi:id="_c0aAUNJFEe2HNbfNf69dcg" name="getOcupada"/>
-        <ownedOperation xmi:id="_ehRx0NJFEe2HNbfNf69dcg" name="setOcupada"/>
-        <ownedOperation xmi:id="_flrOENJFEe2HNbfNf69dcg" name="setPrecio"/>
-        <ownedOperation xmi:id="_No9wwNPNEe2Ajtt_IXPLWg" name="setNumero"/>
-        <ownedOperation xmi:id="_PlBNwNPNEe2Ajtt_IXPLWg" name="setPiso"/>
-        <ownedOperation xmi:id="_Q90MsNPNEe2Ajtt_IXPLWg" name="setTamanyo"/>
-        <ownedOperation xmi:id="_STu2wNPNEe2Ajtt_IXPLWg" name="setIdEmpleado"/>
-        <ownedOperation xmi:id="_lqKxkNUuEe20rJJICf759A" name="getIdEmpleado"/>
-        <ownedOperation xmi:id="_n4EMgNUuEe20rJJICf759A" name="THabitacion"/>
+        <ownedOperation xmi:id="_ZG-FQNJFEe2HNbfNf69dcg" name="getNumero">
+          <ownedParameter xmi:id="_NW3-QOjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aL_zoNJFEe2HNbfNf69dcg" name="getPiso">
+          <ownedParameter xmi:id="_PymZ0OjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_bAa6MNJFEe2HNbfNf69dcg" name="gettamanyo">
+          <ownedParameter xmi:id="_cMzQsOjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_cA8jENJFEe2HNbfNf69dcg" name="getPrecio">
+          <ownedParameter xmi:id="_eGL0MOjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Float%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_c0aAUNJFEe2HNbfNf69dcg" name="getOcupada">
+          <ownedParameter xmi:id="_jxqJQOjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Boolean%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ehRx0NJFEe2HNbfNf69dcg" name="setOcupada">
+          <ownedParameter xmi:id="_l6h6QOjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Void%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_flrOENJFEe2HNbfNf69dcg" name="setPrecio">
+          <ownedParameter xmi:id="_hrrUMOjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Void%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_No9wwNPNEe2Ajtt_IXPLWg" name="setNumero">
+          <ownedParameter xmi:id="_tmUhQOjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Void%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_PlBNwNPNEe2Ajtt_IXPLWg" name="setPiso">
+          <ownedParameter xmi:id="_vXY2QOjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Void%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_Q90MsNPNEe2Ajtt_IXPLWg" name="setTamanyo">
+          <ownedParameter xmi:id="_xgyywOjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Void%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_STu2wNPNEe2Ajtt_IXPLWg" name="setIdEmp">
+          <ownedParameter xmi:id="_1f_MMOjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Void%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_lqKxkNUuEe20rJJICf759A" name="getId_empleado">
+          <ownedParameter xmi:id="_rQerQOjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_n4EMgNUuEe20rJJICf759A" name="THabitaciones"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_CfvZsNJFEe2HNbfNf69dcg" name="SAHabitacionIMP" clientDependency="_j5yugNPNEe2Ajtt_IXPLWg _n_kRENPNEe2Ajtt_IXPLWg _PxdqINPUEe2Ajtt_IXPLWg _XHsQ0NPUEe2Ajtt_IXPLWg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_j5yugNPNEe2Ajtt_IXPLWg" supplier="_ycoQgNJGEe2HNbfNf69dcg" client="_CfvZsNJFEe2HNbfNf69dcg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_n_kRENPNEe2Ajtt_IXPLWg" supplier="_xtEJ4NJIEe2HNbfNf69dcg" client="_CfvZsNJFEe2HNbfNf69dcg"/>
       <packagedElement xmi:type="uml:Interface" xmi:id="_-QMLwNPTEe2Ajtt_IXPLWg" name="SAHabitacion" clientDependency="_VRb50NPUEe2Ajtt_IXPLWg">
-        <ownedOperation xmi:id="_ANXqINPUEe2Ajtt_IXPLWg" name="crear"/>
-        <ownedOperation xmi:id="_BuRcMNPUEe2Ajtt_IXPLWg" name="eliminar"/>
-        <ownedOperation xmi:id="_DV4TMNPUEe2Ajtt_IXPLWg" name="modificar"/>
-        <ownedOperation xmi:id="_ErVDMNPUEe2Ajtt_IXPLWg" name="mostrarUna"/>
-        <ownedOperation xmi:id="_HOEFsNPUEe2Ajtt_IXPLWg" name="mostrarTodas"/>
-        <ownedOperation xmi:id="_JVGDoNPUEe2Ajtt_IXPLWg" name="mostrarTodasDisponibles"/>
-        <ownedOperation xmi:id="_8TMEIOOYEe2tXPQPfOEVJQ" name="mostrarPorEmpleado"/>
+        <ownedOperation xmi:id="_ANXqINPUEe2Ajtt_IXPLWg" name="crear">
+          <ownedParameter xmi:id="_4zVMQOjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_BuRcMNPUEe2Ajtt_IXPLWg" name="eliminar">
+          <ownedParameter xmi:id="_7GQ4MOjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_DV4TMNPUEe2Ajtt_IXPLWg" name="modificar">
+          <ownedParameter xmi:id="_85KZMOjhEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.lang.Integer%5Bproject%5Eid=HotelIS2%5D$uml.Class"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ErVDMNPUEe2Ajtt_IXPLWg" name="mostrarUno">
+          <ownedParameter xmi:id="_B5TSQOjiEe29Z6ye5xviJg" name="Parameter1" type="_9bdngNJEEe2HNbfNf69dcg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_HOEFsNPUEe2Ajtt_IXPLWg" name="mostrarTodos">
+          <ownedParameter xmi:id="_GPw8MOjiEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.Collection%5Bproject%5Eid=HotelIS2%5D$uml.Interface"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_JVGDoNPUEe2Ajtt_IXPLWg" name="MostrarTodasDisponibles">
+          <ownedParameter xmi:id="_Jx5mMOjiEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.Collection%5Bproject%5Eid=HotelIS2%5D$uml.Interface"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_8TMEIOOYEe2tXPQPfOEVJQ" name="mostrarPorEmpleado">
+          <ownedParameter xmi:id="_ONyisOjiEe29Z6ye5xviJg" name="Parameter1" direction="return">
+            <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.Collection%5Bproject%5Eid=HotelIS2%5D$uml.Interface"/>
+          </ownedParameter>
+        </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_PxdqINPUEe2Ajtt_IXPLWg" supplier="_-QMLwNPTEe2Ajtt_IXPLWg" client="_CfvZsNJFEe2HNbfNf69dcg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_VRb50NPUEe2Ajtt_IXPLWg" supplier="_9bdngNJEEe2HNbfNf69dcg" client="_-QMLwNPTEe2Ajtt_IXPLWg"/>
