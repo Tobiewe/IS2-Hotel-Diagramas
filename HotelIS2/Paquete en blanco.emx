@@ -15319,7 +15319,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_M9kmhOOIEe29SKBsUvtZ5Q" covered="_y-cyEOOHEe29SKBsUvtZ5Q" event="_NTB5IOOIEe29SKBsUvtZ5Q" message="_M9kmheOIEe29SKBsUvtZ5Q"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_M9kmhuOIEe29SKBsUvtZ5Q" covered="_xKx1AOOHEe29SKBsUvtZ5Q" event="_NTB5IeOIEe29SKBsUvtZ5Q" message="_M9kmheOIEe29SKBsUvtZ5Q"/>
           <message xmi:id="_M9kmgOOIEe29SKBsUvtZ5Q" name="mostrarUna" receiveEvent="_M9kmguOIEe29SKBsUvtZ5Q" sendEvent="_M9kmgeOIEe29SKBsUvtZ5Q" connector="_M9kmh-OIEe29SKBsUvtZ5Q"/>
-          <message xmi:id="_M9kmheOIEe29SKBsUvtZ5Q" name="mostrarUna" messageSort="reply" receiveEvent="_M9kmhuOIEe29SKBsUvtZ5Q" sendEvent="_M9kmhOOIEe29SKBsUvtZ5Q" connector="_M9kmh-OIEe29SKBsUvtZ5Q"/>
+          <message xmi:id="_M9kmheOIEe29SKBsUvtZ5Q" name="th" messageSort="reply" receiveEvent="_M9kmhuOIEe29SKBsUvtZ5Q" sendEvent="_M9kmhOOIEe29SKBsUvtZ5Q" connector="_M9kmh-OIEe29SKBsUvtZ5Q"/>
           <message xmi:id="_P47kYOOIEe29SKBsUvtZ5Q" name="newDAOHabitaciones" receiveEvent="_P47kYuOIEe29SKBsUvtZ5Q" sendEvent="_P47kYeOIEe29SKBsUvtZ5Q" connector="_P47kZ-OIEe29SKBsUvtZ5Q"/>
           <message xmi:id="_P47kZeOIEe29SKBsUvtZ5Q" name="newDAOHabitaciones" messageSort="reply" receiveEvent="_P47kZuOIEe29SKBsUvtZ5Q" sendEvent="_P47kZOOIEe29SKBsUvtZ5Q" connector="_P47kZ-OIEe29SKBsUvtZ5Q"/>
           <message xmi:id="_RAaJ0OOIEe29SKBsUvtZ5Q" name="getInstance" receiveEvent="_RAaJ0uOIEe29SKBsUvtZ5Q" sendEvent="_RAaJ0eOIEe29SKBsUvtZ5Q" connector="_P47kZ-OIEe29SKBsUvtZ5Q"/>
