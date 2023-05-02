@@ -1302,11 +1302,11 @@
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_sh6NoOEwEe2ZsfWhRbjAHQ" covered="_LFjLkOEwEe2ZsfWhRbjAHQ" start="_sh5mkuEwEe2ZsfWhRbjAHQ" finish="_sh6NoeEwEe2ZsfWhRbjAHQ"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sh6NoeEwEe2ZsfWhRbjAHQ" covered="_LFjLkOEwEe2ZsfWhRbjAHQ" event="_tHzI8OEwEe2ZsfWhRbjAHQ" message="_sh6NouEwEe2ZsfWhRbjAHQ"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sh6No-EwEe2ZsfWhRbjAHQ" covered="_QwNQAOEqEe2ZsfWhRbjAHQ" event="_tHzwAOEwEe2ZsfWhRbjAHQ" message="_sh6NouEwEe2ZsfWhRbjAHQ"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2K9oAOEvEe2ZsfWhRbjAHQ" covered="_QwNQAOEqEe2ZsfWhRbjAHQ" event="_833k4OEvEe2ZsfWhRbjAHQ" message="_2K9A8OEvEe2ZsfWhRbjAHQ"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2K9oAeEvEe2ZsfWhRbjAHQ" covered="_9mmIkOEuEe2ZsfWhRbjAHQ" event="_834L8OEvEe2ZsfWhRbjAHQ" message="_2K9A8OEvEe2ZsfWhRbjAHQ"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2K9oAOEvEe2ZsfWhRbjAHQ" covered="_QwNQAOEqEe2ZsfWhRbjAHQ" event="_cE6o0ON3Ee2wjthaeTpVIg" message="_2K9A8OEvEe2ZsfWhRbjAHQ"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2K9oAeEvEe2ZsfWhRbjAHQ" covered="_9mmIkOEuEe2ZsfWhRbjAHQ" event="_cE6o0eN3Ee2wjthaeTpVIg" message="_2K9A8OEvEe2ZsfWhRbjAHQ"/>
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_2K9oAuEvEe2ZsfWhRbjAHQ" covered="_9mmIkOEuEe2ZsfWhRbjAHQ" start="_2K9oAeEvEe2ZsfWhRbjAHQ" finish="_2K9oA-EvEe2ZsfWhRbjAHQ"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2K9oA-EvEe2ZsfWhRbjAHQ" covered="_9mmIkOEuEe2ZsfWhRbjAHQ" event="_833k4OEvEe2ZsfWhRbjAHQ" message="_2K9oBOEvEe2ZsfWhRbjAHQ"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2K9oBeEvEe2ZsfWhRbjAHQ" covered="_QwNQAOEqEe2ZsfWhRbjAHQ" event="_834L8OEvEe2ZsfWhRbjAHQ" message="_2K9oBOEvEe2ZsfWhRbjAHQ"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2K9oA-EvEe2ZsfWhRbjAHQ" covered="_9mmIkOEuEe2ZsfWhRbjAHQ" event="_cE6o0ON3Ee2wjthaeTpVIg" message="_2K9oBOEvEe2ZsfWhRbjAHQ"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_2K9oBeEvEe2ZsfWhRbjAHQ" covered="_QwNQAOEqEe2ZsfWhRbjAHQ" event="_cE6o0eN3Ee2wjthaeTpVIg" message="_2K9oBOEvEe2ZsfWhRbjAHQ"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vCDPIeEwEe2ZsfWhRbjAHQ" covered="_QwNQAOEqEe2ZsfWhRbjAHQ" event="_cJsCAOEwEe2ZsfWhRbjAHQ" message="_vCDPIOEwEe2ZsfWhRbjAHQ"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_vCDPIuEwEe2ZsfWhRbjAHQ" covered="_LFjLkOEwEe2ZsfWhRbjAHQ" event="_cJsCAeEwEe2ZsfWhRbjAHQ" message="_vCDPIOEwEe2ZsfWhRbjAHQ"/>
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_vCD2MOEwEe2ZsfWhRbjAHQ" covered="_LFjLkOEwEe2ZsfWhRbjAHQ" start="_vCDPIuEwEe2ZsfWhRbjAHQ" finish="_vCD2MeEwEe2ZsfWhRbjAHQ"/>
@@ -1355,21 +1355,21 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WcxKMOEqEe2ZsfWhRbjAHQ" covered="_QwNQAOEqEe2ZsfWhRbjAHQ" event="_ZhuwAOEqEe2ZsfWhRbjAHQ" message="_WcxxQOEqEe2ZsfWhRbjAHQ"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_WcyYUOEqEe2ZsfWhRbjAHQ" covered="_KO6GMOEqEe2ZsfWhRbjAHQ" event="_ZhwlMOEqEe2ZsfWhRbjAHQ" message="_WcxxQOEqEe2ZsfWhRbjAHQ"/>
           <message xmi:id="_WconUOEqEe2ZsfWhRbjAHQ" name="añadir" receiveEvent="_Wcs4wOEqEe2ZsfWhRbjAHQ" sendEvent="_WcsRsOEqEe2ZsfWhRbjAHQ" connector="_Wc2CsOEqEe2ZsfWhRbjAHQ"/>
-          <message xmi:id="_WcxxQOEqEe2ZsfWhRbjAHQ" name="añadir" messageSort="reply" receiveEvent="_WcyYUOEqEe2ZsfWhRbjAHQ" sendEvent="_WcxKMOEqEe2ZsfWhRbjAHQ" connector="_Wc2CsOEqEe2ZsfWhRbjAHQ"/>
+          <message xmi:id="_WcxxQOEqEe2ZsfWhRbjAHQ" name="key" messageSort="reply" receiveEvent="_WcyYUOEqEe2ZsfWhRbjAHQ" sendEvent="_WcxKMOEqEe2ZsfWhRbjAHQ" connector="_Wc2CsOEqEe2ZsfWhRbjAHQ"/>
           <message xmi:id="_eEebEOEtEe2ZsfWhRbjAHQ" name="getConnection" receiveEvent="_eEfCIeEtEe2ZsfWhRbjAHQ" sendEvent="_eEfCIOEtEe2ZsfWhRbjAHQ" connector="_eEfpMeEtEe2ZsfWhRbjAHQ"/>
           <message xmi:id="_eEfCJOEtEe2ZsfWhRbjAHQ" name="getConnection" messageSort="reply" receiveEvent="_eEfpMOEtEe2ZsfWhRbjAHQ" sendEvent="_eEfCI-EtEe2ZsfWhRbjAHQ" connector="_eEfpMeEtEe2ZsfWhRbjAHQ"/>
           <message xmi:id="_F6vlgOEuEe2ZsfWhRbjAHQ" name="prepareStatement" receiveEvent="_F6wMkeEuEe2ZsfWhRbjAHQ" sendEvent="_F6wMkOEuEe2ZsfWhRbjAHQ" connector="_F6wzouEuEe2ZsfWhRbjAHQ"/>
           <message xmi:id="_F6wzoOEuEe2ZsfWhRbjAHQ" name="prepareStatement" messageSort="reply" receiveEvent="_F6wzoeEuEe2ZsfWhRbjAHQ" sendEvent="_F6wMk-EuEe2ZsfWhRbjAHQ" connector="_F6wzouEuEe2ZsfWhRbjAHQ"/>
           <message xmi:id="_m6r74OEvEe2ZsfWhRbjAHQ" name="getPiso" receiveEvent="_m6r74uEvEe2ZsfWhRbjAHQ" sendEvent="_m6r74eEvEe2ZsfWhRbjAHQ" connector="_dZggkeEvEe2ZsfWhRbjAHQ"/>
           <message xmi:id="_m6tKAuEvEe2ZsfWhRbjAHQ" name="getPiso" messageSort="reply" receiveEvent="_m6tKA-EvEe2ZsfWhRbjAHQ" sendEvent="_m6tKAeEvEe2ZsfWhRbjAHQ" connector="_dZggkeEvEe2ZsfWhRbjAHQ"/>
-          <message xmi:id="_pnb2AOEvEe2ZsfWhRbjAHQ" name="getTamanyo" receiveEvent="_pnb2AuEvEe2ZsfWhRbjAHQ" sendEvent="_pnb2AeEvEe2ZsfWhRbjAHQ" connector="_dZggkeEvEe2ZsfWhRbjAHQ"/>
-          <message xmi:id="_pncdEuEvEe2ZsfWhRbjAHQ" name="getTamanyo" messageSort="reply" receiveEvent="_pncdE-EvEe2ZsfWhRbjAHQ" sendEvent="_pncdEeEvEe2ZsfWhRbjAHQ" connector="_dZggkeEvEe2ZsfWhRbjAHQ"/>
+          <message xmi:id="_pnb2AOEvEe2ZsfWhRbjAHQ" name="gettamanyo" receiveEvent="_pnb2AuEvEe2ZsfWhRbjAHQ" sendEvent="_pnb2AeEvEe2ZsfWhRbjAHQ" connector="_dZggkeEvEe2ZsfWhRbjAHQ"/>
+          <message xmi:id="_pncdEuEvEe2ZsfWhRbjAHQ" name="gettamanyo" messageSort="reply" receiveEvent="_pncdE-EvEe2ZsfWhRbjAHQ" sendEvent="_pncdEeEvEe2ZsfWhRbjAHQ" connector="_dZggkeEvEe2ZsfWhRbjAHQ"/>
           <message xmi:id="_r7wCAOEvEe2ZsfWhRbjAHQ" name="getPrecio" receiveEvent="_r7xQIOEvEe2ZsfWhRbjAHQ" sendEvent="_r7wpEOEvEe2ZsfWhRbjAHQ" connector="_dZggkeEvEe2ZsfWhRbjAHQ"/>
           <message xmi:id="_r7yeQOEvEe2ZsfWhRbjAHQ" name="getPrecio" messageSort="reply" receiveEvent="_r7yeQeEvEe2ZsfWhRbjAHQ" sendEvent="_r7x3MeEvEe2ZsfWhRbjAHQ" connector="_dZggkeEvEe2ZsfWhRbjAHQ"/>
           <message xmi:id="_0CeRgOEvEe2ZsfWhRbjAHQ" name="getOcupada" receiveEvent="_0Ce4kOEvEe2ZsfWhRbjAHQ" sendEvent="_0CeRgeEvEe2ZsfWhRbjAHQ" connector="_dZggkeEvEe2ZsfWhRbjAHQ"/>
           <message xmi:id="_0Ce4k-EvEe2ZsfWhRbjAHQ" name="getOcupada" messageSort="reply" receiveEvent="_0CffoOEvEe2ZsfWhRbjAHQ" sendEvent="_0Ce4kuEvEe2ZsfWhRbjAHQ" connector="_dZggkeEvEe2ZsfWhRbjAHQ"/>
-          <message xmi:id="_2K9A8OEvEe2ZsfWhRbjAHQ" name="getIdEmpleado" receiveEvent="_2K9oAeEvEe2ZsfWhRbjAHQ" sendEvent="_2K9oAOEvEe2ZsfWhRbjAHQ" connector="_dZggkeEvEe2ZsfWhRbjAHQ"/>
-          <message xmi:id="_2K9oBOEvEe2ZsfWhRbjAHQ" name="getIdEmpleado" messageSort="reply" receiveEvent="_2K9oBeEvEe2ZsfWhRbjAHQ" sendEvent="_2K9oA-EvEe2ZsfWhRbjAHQ" connector="_dZggkeEvEe2ZsfWhRbjAHQ"/>
+          <message xmi:id="_2K9A8OEvEe2ZsfWhRbjAHQ" name="getId_empleado" receiveEvent="_2K9oAeEvEe2ZsfWhRbjAHQ" sendEvent="_2K9oAOEvEe2ZsfWhRbjAHQ" connector="_dZggkeEvEe2ZsfWhRbjAHQ"/>
+          <message xmi:id="_2K9oBOEvEe2ZsfWhRbjAHQ" name="getId_empleado" messageSort="reply" receiveEvent="_2K9oBeEvEe2ZsfWhRbjAHQ" sendEvent="_2K9oA-EvEe2ZsfWhRbjAHQ" connector="_dZggkeEvEe2ZsfWhRbjAHQ"/>
           <message xmi:id="_Yo4NsOEwEe2ZsfWhRbjAHQ" name="setInt" receiveEvent="_Yo40wOEwEe2ZsfWhRbjAHQ" sendEvent="_Yo4NseEwEe2ZsfWhRbjAHQ" connector="_Yo40xeEwEe2ZsfWhRbjAHQ"/>
           <message xmi:id="_Yo40w-EwEe2ZsfWhRbjAHQ" name="setInt" messageSort="reply" receiveEvent="_Yo40xOEwEe2ZsfWhRbjAHQ" sendEvent="_Yo40wuEwEe2ZsfWhRbjAHQ" connector="_Yo40xeEwEe2ZsfWhRbjAHQ"/>
           <message xmi:id="_egL_UOEwEe2ZsfWhRbjAHQ" name="setFloat" receiveEvent="_egMmYOEwEe2ZsfWhRbjAHQ" sendEvent="_egL_UeEwEe2ZsfWhRbjAHQ" connector="_Yo40xeEwEe2ZsfWhRbjAHQ"/>
