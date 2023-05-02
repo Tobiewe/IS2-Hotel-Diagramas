@@ -3391,7 +3391,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-KNBUOHxEe2K94xNkWPKqg" covered="_7BVy8OHxEe2K94xNkWPKqg" event="_-5H80OHxEe2K94xNkWPKqg" message="_-KNBUeHxEe2K94xNkWPKqg"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_-KNoYOHxEe2K94xNkWPKqg" covered="_puo8EOHxEe2K94xNkWPKqg" event="_-5Ij4OHxEe2K94xNkWPKqg" message="_-KNBUeHxEe2K94xNkWPKqg"/>
           <message xmi:id="_-KLMIOHxEe2K94xNkWPKqg" name="mostrarTodas" receiveEvent="_-KMaQOHxEe2K94xNkWPKqg" sendEvent="_-KLzMOHxEe2K94xNkWPKqg" connector="_-KNoYeHxEe2K94xNkWPKqg"/>
-          <message xmi:id="_-KNBUeHxEe2K94xNkWPKqg" name="mostrarTodas" messageSort="reply" receiveEvent="_-KNoYOHxEe2K94xNkWPKqg" sendEvent="_-KNBUOHxEe2K94xNkWPKqg" connector="_-KNoYeHxEe2K94xNkWPKqg"/>
+          <message xmi:id="_-KNBUeHxEe2K94xNkWPKqg" name="lista" messageSort="reply" receiveEvent="_-KNoYOHxEe2K94xNkWPKqg" sendEvent="_-KNBUOHxEe2K94xNkWPKqg" connector="_-KNoYeHxEe2K94xNkWPKqg"/>
           <message xmi:id="_A9-7EOHzEe2K94xNkWPKqg" name="getConnection" receiveEvent="_A9_iIeHzEe2K94xNkWPKqg" sendEvent="_A9_iIOHzEe2K94xNkWPKqg" connector="_A-AwQeHzEe2K94xNkWPKqg"/>
           <message xmi:id="_A-AJMeHzEe2K94xNkWPKqg" name="getConnection" messageSort="reply" receiveEvent="_A-AwQOHzEe2K94xNkWPKqg" sendEvent="_A-AJMOHzEe2K94xNkWPKqg" connector="_A-AwQeHzEe2K94xNkWPKqg"/>
           <message xmi:id="_KQUpIOHzEe2K94xNkWPKqg" name="createStatement" receiveEvent="_KQUpIuHzEe2K94xNkWPKqg" sendEvent="_KQUpIeHzEe2K94xNkWPKqg" connector="_KQWeUeHzEe2K94xNkWPKqg"/>
@@ -3412,7 +3412,7 @@
           <message xmi:id="_bvAboOH1Ee2ySIp7Sx5GCw" name="getInt" messageSort="reply" receiveEvent="_bvAboeH1Ee2ySIp7Sx5GCw" sendEvent="_bu_NhOH1Ee2ySIp7Sx5GCw" connector="_32s7lOH0Ee2ySIp7Sx5GCw"/>
           <message xmi:id="_kNNXAOH1Ee2ySIp7Sx5GCw" name="close" receiveEvent="_kNN-EOH1Ee2ySIp7Sx5GCw" sendEvent="_kNNXAeH1Ee2ySIp7Sx5GCw" connector="_KQWeUeHzEe2K94xNkWPKqg"/>
           <message xmi:id="_kNOlIOH1Ee2ySIp7Sx5GCw" name="close" messageSort="reply" receiveEvent="_kNOlIeH1Ee2ySIp7Sx5GCw" sendEvent="_kNN-EuH1Ee2ySIp7Sx5GCw" connector="_KQWeUeHzEe2K94xNkWPKqg"/>
-          <message xmi:id="_4cKjoOH1Ee2ySIp7Sx5GCw" name="THabitacion" messageSort="createMessage" receiveEvent="_4cZNIeH1Ee2ySIp7Sx5GCw" sendEvent="_4cZNIOH1Ee2ySIp7Sx5GCw" connector="_4cabQOH1Ee2ySIp7Sx5GCw"/>
+          <message xmi:id="_4cKjoOH1Ee2ySIp7Sx5GCw" name="THabitaciones" messageSort="createMessage" receiveEvent="_4cZNIeH1Ee2ySIp7Sx5GCw" sendEvent="_4cZNIOH1Ee2ySIp7Sx5GCw" connector="_4cabQOH1Ee2ySIp7Sx5GCw"/>
           <message xmi:id="_AR6-8OH2Ee2ySIp7Sx5GCw" name="close" receiveEvent="_AR7mAOH2Ee2ySIp7Sx5GCw" sendEvent="_AR6-8eH2Ee2ySIp7Sx5GCw" connector="_n8_Q4uH0Ee2ySIp7Sx5GCw"/>
           <message xmi:id="_AR7mA-H2Ee2ySIp7Sx5GCw" name="close" messageSort="reply" receiveEvent="_AR7mBOH2Ee2ySIp7Sx5GCw" sendEvent="_AR7mAuH2Ee2ySIp7Sx5GCw" connector="_n8_Q4uH0Ee2ySIp7Sx5GCw"/>
           <message xmi:id="_D5T8YOH2Ee2ySIp7Sx5GCw" name="close" receiveEvent="_D5VKgOH2Ee2ySIp7Sx5GCw" sendEvent="_D5T8YeH2Ee2ySIp7Sx5GCw" connector="_32s7lOH0Ee2ySIp7Sx5GCw"/>
